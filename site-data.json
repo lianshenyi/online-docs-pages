@@ -1,0 +1,5853 @@
+{
+  "generatedAt": "2026-06-26T02:51:36.276Z",
+  "docsRoot": "文档",
+  "passwordHash": "5f11edbd4fca0a788adfce3464a3a4137a516f0acb27013818994aad4c7f8cf2",
+  "kdf": {
+    "name": "PBKDF2",
+    "hash": "SHA-256",
+    "iterations": 210000,
+    "salt": "h7FDMc3sLNahettEheKauw=="
+  },
+  "directories": [
+    {
+      "path": "/",
+      "name": "文档",
+      "dirs": [
+        "/安全",
+        "/编程",
+        "/部署",
+        "/测试",
+        "/储存",
+        "/对外文档",
+        "/监控日志收集",
+        "/区块链",
+        "/容器",
+        "/数据库",
+        "/网络",
+        "/虚拟化",
+        "/中间件",
+        "/自动化",
+        "/aws",
+        "/githup",
+        "/linux",
+        "/sre",
+        "/windows"
+      ],
+      "docs": [
+        "/仓库",
+        "/常规单词",
+        "/代办事项",
+        "/複習",
+        "/脚本说明",
+        "/论文",
+        "/设计",
+        "/脱敏数据",
+        "/脱敏数据 (copy)",
+        "/sre-待整理"
+      ]
+    },
+    {
+      "path": "/安全",
+      "name": "安全",
+      "dirs": [],
+      "docs": [
+        "/安全/端口",
+        "/安全/服务器卡死报错",
+        "/安全/检查md文档密码",
+        "/安全/流氓病毒",
+        "/安全/漏洞",
+        "/安全/系统限制配置",
+        "/安全/运维安全",
+        "/安全/注册表自启动",
+        "/安全/amazon2 -升级 openssh",
+        "/安全/DNS缓存中毒如何工作",
+        "/安全/Dos攻击",
+        "/安全/fork炸弹",
+        "/安全/Kali Linux三种网络攻击方法总结(DDoS,CC和ARP欺骗)",
+        "/安全/Linux Kernel nf_tables 本地权限提升漏洞（CVE-2024-1086）",
+        "/安全/Linux下进程隐藏手段及侦测方法",
+        "/安全/sql注入原理",
+        "/安全/waf开源"
+      ]
+    },
+    {
+      "path": "/编程",
+      "name": "编程",
+      "dirs": [
+        "/编程/go",
+        "/编程/IDEA",
+        "/编程/JAVA",
+        "/编程/openclaw",
+        "/编程/python",
+        "/编程/telegram",
+        "/编程/vscode",
+        "/编程/vue",
+        "/编程/webassembly"
+      ],
+      "docs": [
+        "/编程/ai-规范",
+        "/编程/codex",
+        "/编程/cursor",
+        "/编程/idea-快捷键",
+        "/编程/java-学习",
+        "/编程/kiro",
+        "/编程/kiro-hook",
+        "/编程/openspc"
+      ]
+    },
+    {
+      "path": "/编程/go",
+      "name": "go",
+      "dirs": [],
+      "docs": [
+        "/编程/go/go-windows",
+        "/编程/go/go语言基于etcd的服务注册与发现",
+        "/编程/go/go语言grpc的基础使用",
+        "/编程/go/golang"
+      ]
+    },
+    {
+      "path": "/编程/IDEA",
+      "name": "IDEA",
+      "dirs": [],
+      "docs": [
+        "/编程/IDEA/maven"
+      ]
+    },
+    {
+      "path": "/编程/JAVA",
+      "name": "JAVA",
+      "dirs": [],
+      "docs": [
+        "/编程/JAVA/JAVA-安装"
+      ]
+    },
+    {
+      "path": "/编程/openclaw",
+      "name": "openclaw",
+      "dirs": [],
+      "docs": [
+        "/编程/openclaw/openclaw",
+        "/编程/openclaw/openclaw-迁移"
+      ]
+    },
+    {
+      "path": "/编程/python",
+      "name": "python",
+      "dirs": [
+        "/编程/python/conda",
+        "/编程/python/pd",
+        "/编程/python/tk"
+      ],
+      "docs": [
+        "/编程/python/fastapi概念",
+        "/编程/python/pip换源",
+        "/编程/python/python-安装",
+        "/编程/python/python-查看方法调用方式",
+        "/编程/python/python-点击",
+        "/编程/python/python-接口",
+        "/编程/python/python-cookie",
+        "/编程/python/python-cuda",
+        "/编程/python/python-fabric",
+        "/编程/python/python-ftp",
+        "/编程/python/python-json",
+        "/编程/python/python-re",
+        "/编程/python/python-selenium",
+        "/编程/python/python-self",
+        "/编程/python/python-tk",
+        "/编程/python/python-uv",
+        "/编程/python/python多线程",
+        "/编程/python/Python内置小工具",
+        "/编程/python/python新增文件夹",
+        "/编程/python/Python学习",
+        "/编程/python/PythonOS文件目录方法"
+      ]
+    },
+    {
+      "path": "/编程/python/conda",
+      "name": "conda",
+      "dirs": [],
+      "docs": [
+        "/编程/python/conda/conda命令"
+      ]
+    },
+    {
+      "path": "/编程/python/pd",
+      "name": "pd",
+      "dirs": [],
+      "docs": [
+        "/编程/python/pd/python-pd学习"
+      ]
+    },
+    {
+      "path": "/编程/python/tk",
+      "name": "tk",
+      "dirs": [],
+      "docs": [
+        "/编程/python/tk/python-tk"
+      ]
+    },
+    {
+      "path": "/编程/telegram",
+      "name": "telegram",
+      "dirs": [],
+      "docs": [
+        "/编程/telegram/tg-机器人"
+      ]
+    },
+    {
+      "path": "/编程/vscode",
+      "name": "vscode",
+      "dirs": [],
+      "docs": [
+        "/编程/vscode/gatsby",
+        "/编程/vscode/vscode使用"
+      ]
+    },
+    {
+      "path": "/编程/vue",
+      "name": "vue",
+      "dirs": [],
+      "docs": [
+        "/编程/vue/html+css",
+        "/编程/vue/SSO",
+        "/编程/vue/vue-使用",
+        "/编程/vue/vue-cloud9"
+      ]
+    },
+    {
+      "path": "/编程/webassembly",
+      "name": "webassembly",
+      "dirs": [],
+      "docs": [
+        "/编程/webassembly/webAssembly-学习"
+      ]
+    },
+    {
+      "path": "/部署",
+      "name": "部署",
+      "dirs": [
+        "/部署/tools"
+      ],
+      "docs": [
+        "/部署/CICD",
+        "/部署/gitea"
+      ]
+    },
+    {
+      "path": "/部署/tools",
+      "name": "tools",
+      "dirs": [],
+      "docs": [
+        "/部署/tools/画布"
+      ]
+    },
+    {
+      "path": "/测试",
+      "name": "测试",
+      "dirs": [
+        "/测试/流量"
+      ],
+      "docs": [
+        "/测试/查看磁盘性能",
+        "/测试/固态磁盘晶体区别",
+        "/测试/监控流量centos",
+        "/测试/网站AB压测",
+        "/测试/硬盘&网络测试",
+        "/测试/jmeter",
+        "/测试/linux缓存优化",
+        "/测试/mysql压测",
+        "/测试/RDS测试",
+        "/测试/redis测试",
+        "/测试/windows磁盘-U盘测速工具"
+      ]
+    },
+    {
+      "path": "/测试/流量",
+      "name": "流量",
+      "dirs": [],
+      "docs": [
+        "/测试/流量/测试时间长度",
+        "/测试/流量/jmeter"
+      ]
+    },
+    {
+      "path": "/储存",
+      "name": "储存",
+      "dirs": [],
+      "docs": [
+        "/储存/磁盘分区及扩容",
+        "/储存/分布式存储",
+        "/储存/ceph安装",
+        "/储存/ceph概念",
+        "/储存/dragonfly",
+        "/储存/LVM系统增加磁盘容量",
+        "/储存/nfs网络文件系统"
+      ]
+    },
+    {
+      "path": "/对外文档",
+      "name": "对外文档",
+      "dirs": [
+        "/对外文档/sre对外"
+      ],
+      "docs": [
+        "/对外文档/登录vps浏览器",
+        "/对外文档/谷歌开发者账号",
+        "/对外文档/身份证",
+        "/对外文档/TG防盗",
+        "/对外文档/tortoisegit使用",
+        "/对外文档/vpn使用"
+      ]
+    },
+    {
+      "path": "/对外文档/sre对外",
+      "name": "sre对外",
+      "dirs": [],
+      "docs": [
+        "/对外文档/sre对外/cdn检测",
+        "/对外文档/sre对外/cloudflare证书",
+        "/对外文档/sre对外/jumpserver使用",
+        "/对外文档/sre对外/sre-argocd",
+        "/对外文档/sre对外/sre-loki临时查看日志",
+        "/对外文档/sre对外/sre-slack (copy)"
+      ]
+    },
+    {
+      "path": "/监控日志收集",
+      "name": "监控日志收集",
+      "dirs": [],
+      "docs": [
+        "/监控日志收集/elastic-search部署",
+        "/监控日志收集/ELK",
+        "/监控日志收集/ELK一键部署",
+        "/监控日志收集/es优化",
+        "/监控日志收集/Kibana查询",
+        "/监控日志收集/Prometheus部署",
+        "/监控日志收集/prometheus迁移",
+        "/监控日志收集/prometheus一键脚本",
+        "/监控日志收集/zabbix"
+      ]
+    },
+    {
+      "path": "/区块链",
+      "name": "区块链",
+      "dirs": [],
+      "docs": [
+        "/区块链/币安购买USDT",
+        "/区块链/币安卖出USDT",
+        "/区块链/区块链节点，全节点介绍"
+      ]
+    },
+    {
+      "path": "/容器",
+      "name": "容器",
+      "dirs": [
+        "/容器/仓库",
+        "/容器/测试",
+        "/容器/存储",
+        "/容器/多集群",
+        "/容器/工单系统",
+        "/容器/控制平面",
+        "/容器/日志监控",
+        "/容器/数据湖仓",
+        "/容器/数据库",
+        "/容器/网络及流量",
+        "/容器/文档系统",
+        "/容器/业务",
+        "/容器/用户权限",
+        "/容器/注册配置中心",
+        "/容器/CICD",
+        "/容器/operator-crd",
+        "/容器/troubleshooting"
+      ],
+      "docs": [
+        "/容器/测试",
+        "/容器/多云部署k3s",
+        "/容器/容器回滚",
+        "/容器/容器加速",
+        "/容器/容器镜像文件",
+        "/容器/deploment和statusfulset区别",
+        "/容器/docker-镜像加速",
+        "/容器/docker-node",
+        "/容器/docker-runlike",
+        "/容器/docker部署",
+        "/容器/docker部署openvpn",
+        "/容器/docker学习笔记",
+        "/容器/githup拉取国外镜像",
+        "/容器/helm-template",
+        "/容器/helm安装",
+        "/容器/ingress-nginx限制ip",
+        "/容器/k8s-2048",
+        "/容器/k8s-部署",
+        "/容器/k8s-禅道",
+        "/容器/k8s-多主节点优化api",
+        "/容器/k8s-检测版本弃用",
+        "/容器/k8s-介绍",
+        "/容器/k8s-容器调试",
+        "/容器/k8s-学习",
+        "/容器/k8s-重启主节点",
+        "/容器/k8s-自动扩缩容",
+        "/容器/k8s-configmap",
+        "/容器/k8s-CTR命令",
+        "/容器/k8s-deployment",
+        "/容器/k8s-dockerfile",
+        "/容器/k8s-edit-pod",
+        "/容器/k8s-ferry",
+        "/容器/k8s-GPU-显卡",
+        "/容器/k8s-helm",
+        "/容器/k8s-hpa",
+        "/容器/k8s-k8tz-Pod时区问题 ",
+        "/容器/k8s-kswapd0",
+        "/容器/k8s-ktconnect-本地连接",
+        "/容器/k8s-kubeaze",
+        "/容器/k8s-n8n",
+        "/容器/k8s-nerdctl",
+        "/容器/k8s-network-policy",
+        "/容器/k8s-Nexus3",
+        "/容器/k8s-OpenKruise",
+        "/容器/k8s-permission-manager",
+        "/容器/k8s-QoS",
+        "/容器/k8s-rocketchat",
+        "/容器/k8s-statefulset",
+        "/容器/k8s-svc&pod&ing",
+        "/容器/k8s-top-metrics-server",
+        "/容器/k8s-yaml",
+        "/容器/pod的优雅关闭"
+      ]
+    },
+    {
+      "path": "/容器/仓库",
+      "name": "仓库",
+      "dirs": [],
+      "docs": [
+        "/容器/仓库/k8s-gitlab",
+        "/容器/仓库/k8s-nexus",
+        "/容器/仓库/k8s-svn"
+      ]
+    },
+    {
+      "path": "/容器/测试",
+      "name": "测试",
+      "dirs": [],
+      "docs": [
+        "/容器/测试/k8s-测试",
+        "/容器/测试/k8s-rockyos"
+      ]
+    },
+    {
+      "path": "/容器/存储",
+      "name": "存储",
+      "dirs": [],
+      "docs": [
+        "/容器/存储/k8s-测试etcd速度",
+        "/容器/存储/k8s-ceph-csi",
+        "/容器/存储/k8s-ftc",
+        "/容器/存储/k8s-ftp",
+        "/容器/存储/k8s-MinIO",
+        "/容器/存储/k8s-provisioner-local",
+        "/容器/存储/k8s-PV和PVC",
+        "/容器/存储/k8s-rook-ceph",
+        "/容器/存储/k8s-sc",
+        "/容器/存储/k8s-Velero结合minio实现业务数据备份与恢复"
+      ]
+    },
+    {
+      "path": "/容器/多集群",
+      "name": "多集群",
+      "dirs": [],
+      "docs": [
+        "/容器/多集群/数据库迁移",
+        "/容器/多集群/k3s",
+        "/容器/多集群/k8s-karmada",
+        "/容器/多集群/k8s-kubeconfig",
+        "/容器/多集群/k8s-OpenKruise"
+      ]
+    },
+    {
+      "path": "/容器/工单系统",
+      "name": "工单系统",
+      "dirs": [],
+      "docs": [
+        "/容器/工单系统/k8s-zammad"
+      ]
+    },
+    {
+      "path": "/容器/控制平面",
+      "name": "控制平面",
+      "dirs": [],
+      "docs": [
+        "/容器/控制平面/k8-rancher",
+        "/容器/控制平面/k8s-cmdbuild",
+        "/容器/控制平面/k8s-cockpit",
+        "/容器/控制平面/k8s-keycloak",
+        "/容器/控制平面/k8s-kubeboard",
+        "/容器/控制平面/k8s-kubesphere",
+        "/容器/控制平面/k8s-weiyi"
+      ]
+    },
+    {
+      "path": "/容器/日志监控",
+      "name": "日志监控",
+      "dirs": [
+        "/容器/日志监控/backup"
+      ],
+      "docs": [
+        "/容器/日志监控/k8s-CheckCle",
+        "/容器/日志监控/k8s-consul",
+        "/容器/日志监控/k8s-DeepFlow",
+        "/容器/日志监控/k8s-domain-admin",
+        "/容器/日志监控/k8s-doris",
+        "/容器/日志监控/k8s-es",
+        "/容器/日志监控/k8s-exporter",
+        "/容器/日志监控/k8s-fleet",
+        "/容器/日志监控/k8s-fluent",
+        "/容器/日志监控/k8s-grafana",
+        "/容器/日志监控/k8s-kafka",
+        "/容器/日志监控/k8s-kibana",
+        "/容器/日志监控/k8s-loki",
+        "/容器/日志监控/k8s-Nightingale",
+        "/容器/日志监控/k8s-prom",
+        "/容器/日志监控/k8s-victoria-metric",
+        "/容器/日志监控/sre-meeting",
+        "/容器/日志监控/zabbix"
+      ]
+    },
+    {
+      "path": "/容器/日志监控/backup",
+      "name": "backup",
+      "dirs": [],
+      "docs": [
+        "/容器/日志监控/backup/k8s-prometheus"
+      ]
+    },
+    {
+      "path": "/容器/数据湖仓",
+      "name": "数据湖仓",
+      "dirs": [],
+      "docs": [
+        "/容器/数据湖仓/k8s-ArcCore "
+      ]
+    },
+    {
+      "path": "/容器/数据库",
+      "name": "数据库",
+      "dirs": [],
+      "docs": [
+        "/容器/数据库/k8s-etcd",
+        "/容器/数据库/k8s-etcd备份",
+        "/容器/数据库/k8s-mongoBD",
+        "/容器/数据库/k8s-mysql",
+        "/容器/数据库/k8s-pg",
+        "/容器/数据库/k8s-redis",
+        "/容器/数据库/k8s-Yearning SQL审核平台"
+      ]
+    },
+    {
+      "path": "/容器/网络及流量",
+      "name": "网络及流量",
+      "dirs": [],
+      "docs": [
+        "/容器/网络及流量/k8s-流量",
+        "/容器/网络及流量/k8s-证书",
+        "/容器/网络及流量/k8s-apisix",
+        "/容器/网络及流量/k8s-cert-manager",
+        "/容器/网络及流量/k8s-dns",
+        "/容器/网络及流量/k8s-ingress",
+        "/容器/网络及流量/k8s-ingress-nginx",
+        "/容器/网络及流量/k8s-istio",
+        "/容器/网络及流量/k8s-kong",
+        "/容器/网络及流量/k8s-lb",
+        "/容器/网络及流量/k8s-Linkerd+Submariner",
+        "/容器/网络及流量/k8s-metallb",
+        "/容器/网络及流量/k8s-Metrics Server",
+        "/容器/网络及流量/k8s-NAD",
+        "/容器/网络及流量/k8s-node-dns",
+        "/容器/网络及流量/k8s-Traefik",
+        "/容器/网络及流量/k8s-vpn",
+        "/容器/网络及流量/k8s-webhook"
+      ]
+    },
+    {
+      "path": "/容器/文档系统",
+      "name": "文档系统",
+      "dirs": [],
+      "docs": [
+        "/容器/文档系统/k8s-outline",
+        "/容器/文档系统/k8s-paperless"
+      ]
+    },
+    {
+      "path": "/容器/业务",
+      "name": "业务",
+      "dirs": [],
+      "docs": [
+        "/容器/业务/k8s-高可用"
+      ]
+    },
+    {
+      "path": "/容器/用户权限",
+      "name": "用户权限",
+      "dirs": [],
+      "docs": [
+        "/容器/用户权限/k8s-jumpserver",
+        "/容器/用户权限/k8s-RBAC",
+        "/容器/用户权限/k8s-sa"
+      ]
+    },
+    {
+      "path": "/容器/注册配置中心",
+      "name": "注册配置中心",
+      "dirs": [],
+      "docs": [
+        "/容器/注册配置中心/k8s-apollo",
+        "/容器/注册配置中心/k8s-nacos"
+      ]
+    },
+    {
+      "path": "/容器/CICD",
+      "name": "CICD",
+      "dirs": [],
+      "docs": [
+        "/容器/CICD/发布特点",
+        "/容器/CICD/k8s-Argo-CD",
+        "/容器/CICD/k8s-Argo-Rollouts",
+        "/容器/CICD/k8s-argo-rollouts-istio",
+        "/容器/CICD/k8s-Argo-workflows",
+        "/容器/CICD/k8s-cicd",
+        "/容器/CICD/k8s-GITEA",
+        "/容器/CICD/k8s-gitlab",
+        "/容器/CICD/k8s-harbor",
+        "/容器/CICD/k8s-jenkins",
+        "/容器/CICD/k8s-pipeline",
+        "/容器/CICD/k8s-serverless"
+      ]
+    },
+    {
+      "path": "/容器/operator-crd",
+      "name": "operator-crd",
+      "dirs": [],
+      "docs": [
+        "/容器/operator-crd/k8s-operater",
+        "/容器/operator-crd/k8s-operator-frp",
+        "/容器/operator-crd/k8s-operator-frp-sidecar"
+      ]
+    },
+    {
+      "path": "/容器/troubleshooting",
+      "name": "troubleshooting",
+      "dirs": [],
+      "docs": [
+        "/容器/troubleshooting/查询pod资源显示不一致",
+        "/容器/troubleshooting/容器安全之 Dockerfile 安全扫描 ",
+        "/容器/troubleshooting/docker-内存cpu限制",
+        "/容器/troubleshooting/docker-add-copy",
+        "/容器/troubleshooting/docker-cp和mv性能差距",
+        "/容器/troubleshooting/docker的2375端口怎么加密码,公网上开这个端口才两分钟就被种木马了",
+        "/容器/troubleshooting/docker自动暴露端口绕过ufw"
+      ]
+    },
+    {
+      "path": "/数据库",
+      "name": "数据库",
+      "dirs": [
+        "/数据库/大数据",
+        "/数据库/mysql",
+        "/数据库/redis"
+      ],
+      "docs": [
+        "/数据库/安装脚本",
+        "/数据库/麦聪数据库软件",
+        "/数据库/数据库迁移",
+        "/数据库/数据库区别",
+        "/数据库/样本数据库",
+        "/数据库/MongoDB",
+        "/数据库/Navicat16激活"
+      ]
+    },
+    {
+      "path": "/数据库/大数据",
+      "name": "大数据",
+      "dirs": [],
+      "docs": [
+        "/数据库/大数据/流式处理",
+        "/数据库/大数据/数仓"
+      ]
+    },
+    {
+      "path": "/数据库/mysql",
+      "name": "mysql",
+      "dirs": [],
+      "docs": [
+        "/数据库/mysql/aurora自建数据库同步 (copy)",
+        "/数据库/mysql/mysql",
+        "/数据库/mysql/MySQL学习"
+      ]
+    },
+    {
+      "path": "/数据库/redis",
+      "name": "redis",
+      "dirs": [],
+      "docs": [
+        "/数据库/redis/redis-cli",
+        "/数据库/redis/Redis性能调优"
+      ]
+    },
+    {
+      "path": "/网络",
+      "name": "网络",
+      "dirs": [
+        "/网络/交换机",
+        "/网络/隧道"
+      ],
+      "docs": [
+        "/网络/查看网络",
+        "/网络/路由的类别",
+        "/网络/扫描ip",
+        "/网络/网络协议图",
+        "/网络/虚拟机桥接",
+        "/网络/虚拟机设置代理",
+        "/网络/BGP学习",
+        "/网络/CloudFlare",
+        "/网络/CloudFlare-api",
+        "/网络/curl获取外网ip",
+        "/网络/ddns",
+        "/网络/DNS基本概念与常见问题分享",
+        "/网络/gre",
+        "/网络/HCIE论述-ISIS",
+        "/网络/iptables",
+        "/网络/keepalive",
+        "/网络/LVS和HA-proxy的区别",
+        "/网络/LVS三种工作模式",
+        "/网络/NAT+DHCP",
+        "/网络/pfSense",
+        "/网络/ssh反向隧道和nginx反向代理",
+        "/网络/tcp和udp",
+        "/网络/tcpdump",
+        "/网络/windows开启路由转发",
+        "/网络/wireshark"
+      ]
+    },
+    {
+      "path": "/网络/交换机",
+      "name": "交换机",
+      "dirs": [],
+      "docs": [
+        "/网络/交换机/环路",
+        "/网络/交换机/交换机",
+        "/网络/交换机/交换机-BDF",
+        "/网络/交换机/配置小型网络",
+        "/网络/交换机/STP"
+      ]
+    },
+    {
+      "path": "/网络/隧道",
+      "name": "隧道",
+      "dirs": [],
+      "docs": [
+        "/网络/隧道/tailscale"
+      ]
+    },
+    {
+      "path": "/虚拟化",
+      "name": "虚拟化",
+      "dirs": [],
+      "docs": [
+        "/虚拟化/烧制特定网卡esxi镜像",
+        "/虚拟化/ESXI安装",
+        "/虚拟化/hyper-v",
+        "/虚拟化/kvm",
+        "/虚拟化/pve-Proxmox",
+        "/虚拟化/vmware"
+      ]
+    },
+    {
+      "path": "/中间件",
+      "name": "中间件",
+      "dirs": [
+        "/中间件/network",
+        "/中间件/tools"
+      ],
+      "docs": [
+        "/中间件/如何使用Cobra开发自己的CLI ",
+        "/中间件/邮箱",
+        "/中间件/直播、互动直播、实时音视频、旁路直播的区别以及联系",
+        "/中间件/ansible",
+        "/中间件/APISIX 和 Kong对比",
+        "/中间件/APISIX网关",
+        "/中间件/appflowy",
+        "/中间件/CDN",
+        "/中间件/CentOS部署Nginx+ModSecurity（实现WAF效果）",
+        "/中间件/chat—Mattermost",
+        "/中间件/chat—rocketchat",
+        "/中间件/Ckafka基础功能培训",
+        "/中间件/confluence部署",
+        "/中间件/frp穿透",
+        "/中间件/FTP",
+        "/中间件/homebox",
+        "/中间件/jenkins-CICD",
+        "/中间件/jfog",
+        "/中间件/jfrog-migration",
+        "/中间件/jira core",
+        "/中间件/kafka",
+        "/中间件/Kafka 简单介绍",
+        "/中间件/Kafka与RabbitMQ区别",
+        "/中间件/LDAP",
+        "/中间件/nacos部署",
+        "/中间件/nacos使用",
+        "/中间件/nginx优化",
+        "/中间件/nodejs",
+        "/中间件/NPS",
+        "/中间件/openwrt",
+        "/中间件/PHP",
+        "/中间件/postfix部署",
+        "/中间件/postfix一键部署",
+        "/中间件/postman",
+        "/中间件/rabbitMQ部署",
+        "/中间件/RabbitMQ介绍及安装部署",
+        "/中间件/rabbitmq内存使用",
+        "/中间件/saltstack",
+        "/中间件/Trojan",
+        "/中间件/v2ray部署",
+        "/中间件/wireguard"
+      ]
+    },
+    {
+      "path": "/中间件/network",
+      "name": "network",
+      "dirs": [],
+      "docs": [
+        "/中间件/network/openwrt"
+      ]
+    },
+    {
+      "path": "/中间件/tools",
+      "name": "tools",
+      "dirs": [],
+      "docs": [
+        "/中间件/tools/drawnix",
+        "/中间件/tools/paperless-ngx"
+      ]
+    },
+    {
+      "path": "/自动化",
+      "name": "自动化",
+      "dirs": [
+        "/自动化/n8n"
+      ],
+      "docs": [
+        "/自动化/腾讯云启动实例",
+        "/自动化/mcp",
+        "/自动化/Terraform"
+      ]
+    },
+    {
+      "path": "/自动化/n8n",
+      "name": "n8n",
+      "dirs": [],
+      "docs": [
+        "/自动化/n8n/n8n-定时邮件"
+      ]
+    },
+    {
+      "path": "/aws",
+      "name": "aws",
+      "dirs": [
+        "/aws/大数据",
+        "/aws/监控安全",
+        "/aws/数据库",
+        "/aws/消息队列",
+        "/aws/域名",
+        "/aws/账单",
+        "/aws/ECS",
+        "/aws/eks",
+        "/aws/FSx",
+        "/aws/S3",
+        "/aws/vpc"
+      ],
+      "docs": [
+        "/aws/常见错误",
+        "/aws/创建 IAM 用户账户",
+        "/aws/海外域名证书",
+        "/aws/亚马逊热迁移Cloudendure原理",
+        "/aws/acm知识点",
+        "/aws/aspera",
+        "/aws/AWS Amplify",
+        "/aws/aws-cli",
+        "/aws/aws-connect",
+        "/aws/aws-SSO",
+        "/aws/aws-workmail",
+        "/aws/aws服务限额",
+        "/aws/cloud9-info",
+        "/aws/cloudformation",
+        "/aws/cloudfront",
+        "/aws/EC2",
+        "/aws/EC2-启动关机",
+        "/aws/keepalive_for_aws",
+        "/aws/SAP-backint"
+      ]
+    },
+    {
+      "path": "/aws/大数据",
+      "name": "大数据",
+      "dirs": [],
+      "docs": [
+        "/aws/大数据/大数据产品",
+        "/aws/大数据/ambari巡检"
+      ]
+    },
+    {
+      "path": "/aws/监控安全",
+      "name": "监控安全",
+      "dirs": [],
+      "docs": [
+        "/aws/监控安全/部署cloudwatch agent",
+        "/aws/监控安全/监控端口脚本",
+        "/aws/监控安全/Athena",
+        "/aws/监控安全/cloudtrail",
+        "/aws/监控安全/cloudwatch监控",
+        "/aws/监控安全/SSM安装",
+        "/aws/监控安全/waf"
+      ]
+    },
+    {
+      "path": "/aws/数据库",
+      "name": "数据库",
+      "dirs": [],
+      "docs": [
+        "/aws/数据库/数据库更新ssh访问证书",
+        "/aws/数据库/aurora_heart表",
+        "/aws/数据库/aurora自建数据库同步"
+      ]
+    },
+    {
+      "path": "/aws/消息队列",
+      "name": "消息队列",
+      "dirs": [],
+      "docs": [
+        "/aws/消息队列/aws-sqs"
+      ]
+    },
+    {
+      "path": "/aws/域名",
+      "name": "域名",
+      "dirs": [],
+      "docs": [
+        "/aws/域名/route53"
+      ]
+    },
+    {
+      "path": "/aws/账单",
+      "name": "账单",
+      "dirs": [],
+      "docs": [
+        "/aws/账单/aws-账单"
+      ]
+    },
+    {
+      "path": "/aws/ECS",
+      "name": "ECS",
+      "dirs": [],
+      "docs": [
+        "/aws/ECS/aws-ecs"
+      ]
+    },
+    {
+      "path": "/aws/eks",
+      "name": "eks",
+      "dirs": [],
+      "docs": [
+        "/aws/eks/为 Amazon EKS 创建 kubeconfig",
+        "/aws/eks/aws-docker安装",
+        "/aws/eks/aws部署ECR",
+        "/aws/eks/cluster-autoscaler时区",
+        "/aws/eks/EKS Ingress和Service使用案例",
+        "/aws/eks/eks-安装集群",
+        "/aws/eks/eks-负载均衡控制器",
+        "/aws/eks/eks-hpa弹性伸缩",
+        "/aws/eks/eks-karpenter",
+        "/aws/eks/eks-web微服务",
+        "/aws/eks/eks部署微服务",
+        "/aws/eks/eks升级",
+        "/aws/eks/eksctl命令",
+        "/aws/eks/kubesphere"
+      ]
+    },
+    {
+      "path": "/aws/FSx",
+      "name": "FSx",
+      "dirs": [],
+      "docs": [
+        "/aws/FSx/安装lustre"
+      ]
+    },
+    {
+      "path": "/aws/S3",
+      "name": "S3",
+      "dirs": [],
+      "docs": [
+        "/aws/S3/S3-结合cloudfont",
+        "/aws/S3/S3-跨域问题",
+        "/aws/S3/S3-命令",
+        "/aws/S3/S3-删除",
+        "/aws/S3/S3-上传文件夹",
+        "/aws/S3/S3-授权",
+        "/aws/S3/S3-资源同步",
+        "/aws/S3/S3-aws-cli连接"
+      ]
+    },
+    {
+      "path": "/aws/vpc",
+      "name": "vpc",
+      "dirs": [],
+      "docs": [
+        "/aws/vpc/中转网关",
+        "/aws/vpc/aws-vpn"
+      ]
+    },
+    {
+      "path": "/githup",
+      "name": "githup",
+      "dirs": [],
+      "docs": [
+        "/githup/ChatGPT-Midjourney",
+        "/githup/homebox",
+        "/githup/k8s-vgpu-scheduler"
+      ]
+    },
+    {
+      "path": "/linux",
+      "name": "linux",
+      "dirs": [
+        "/linux/OSS"
+      ],
+      "docs": [
+        "/linux/1822网卡安装",
+        "/linux/更改文件所属",
+        "/linux/命令补全",
+        "/linux/内核升级",
+        "/linux/如何使用Cobra开发自己的CLI ",
+        "/linux/新建服务-service服务",
+        "/linux/新建sudo用户",
+        "/linux/域名查看",
+        "/linux/正则表达式",
+        "/linux/BMC",
+        "/linux/centos",
+        "/linux/cmake ",
+        "/linux/crontab",
+        "/linux/gcc升级",
+        "/linux/Linux 用户态线程进程绑定CPU核",
+        "/linux/linux-性能优化",
+        "/linux/Linux链接概念",
+        "/linux/linux命令和shell命令",
+        "/linux/Linux数据实时同步（sersync+rsync）",
+        "/linux/linux相关镜像站",
+        "/linux/Linux中buffercache内存占用过高如何解决 _",
+        "/linux/mobaxterm",
+        "/linux/nginx配置",
+        "/linux/os间传输文件",
+        "/linux/pam概念",
+        "/linux/PXE",
+        "/linux/raid0扩容",
+        "/linux/sed命令",
+        "/linux/sh和source的区别",
+        "/linux/shell多进程",
+        "/linux/ssh登录很慢解决方法",
+        "/linux/ssh命令",
+        "/linux/SVN和GIT",
+        "/linux/top命令",
+        "/linux/ubuntu",
+        "/linux/vi",
+        "/linux/VPN",
+        "/linux/xsync脚本使用",
+        "/linux/yq&jq"
+      ]
+    },
+    {
+      "path": "/linux/OSS",
+      "name": "OSS",
+      "dirs": [],
+      "docs": [
+        "/linux/OSS/oss命令",
+        "/linux/OSS/oss上传文件夹"
+      ]
+    },
+    {
+      "path": "/sre",
+      "name": "sre",
+      "dirs": [
+        "/sre/操作",
+        "/sre/pp",
+        "/sre/saas",
+        "/sre/web3"
+      ],
+      "docs": [
+        "/sre/部署流程",
+        "/sre/sre-仓库说明",
+        "/sre/sre-测试网页速度",
+        "/sre/sre-更换证书",
+        "/sre/sre-熔断和降级",
+        "/sre/sre-设计思想",
+        "/sre/sre-硬盘被占用",
+        "/sre/sre-域名测试",
+        "/sre/sre-域名测试-wingame",
+        "/sre/SRE-原有mongoDB设置服务",
+        "/sre/sre-cloudflare",
+        "/sre/sre-feishu-机器人",
+        "/sre/sre-k8s巡检报告",
+        "/sre/sre-liunx-监控",
+        "/sre/sre-lnmp",
+        "/sre/sre-mongoDB",
+        "/sre/sre-mysql",
+        "/sre/sre-nginx",
+        "/sre/sre-rdp",
+        "/sre/sre-redis",
+        "/sre/sre-rocketmq",
+        "/sre/sre-saas-排查",
+        "/sre/sre-saas-docker",
+        "/sre/sre-seata",
+        "/sre/sre-sentinel-dashboard",
+        "/sre/sre-slack",
+        "/sre/sre-ssh",
+        "/sre/sre-tg",
+        "/sre/sre-web3-docker",
+        "/sre/sre-windows",
+        "/sre/sre-xxl-job"
+      ]
+    },
+    {
+      "path": "/sre/操作",
+      "name": "操作",
+      "dirs": [],
+      "docs": [
+        "/sre/操作/web3-备份恢复数据",
+        "/sre/操作/web3-test-清空数据操作"
+      ]
+    },
+    {
+      "path": "/sre/pp",
+      "name": "pp",
+      "dirs": [
+        "/sre/pp/集群",
+        "/sre/pp/监控",
+        "/sre/pp/平台业务",
+        "/sre/pp/迁移",
+        "/sre/pp/数据库",
+        "/sre/pp/学习",
+        "/sre/pp/巡检",
+        "/sre/pp/中台业务",
+        "/sre/pp/bak",
+        "/sre/pp/redis",
+        "/sre/pp/vps"
+      ],
+      "docs": [
+        "/sre/pp/pp-测试nfs读写",
+        "/sre/pp/pp-单独用户",
+        "/sre/pp/pp-更新证书",
+        "/sre/pp/pp-敏捷云",
+        "/sre/pp/pp-迁移",
+        "/sre/pp/pp-小时带宽包调度",
+        "/sre/pp/pp-邮件",
+        "/sre/pp/pp-云账号接收人设置",
+        "/sre/pp/pp-cdn",
+        "/sre/pp/pp-emr",
+        "/sre/pp/pp-ftp",
+        "/sre/pp/pp-nfs",
+        "/sre/pp/pp-salt",
+        "/sre/pp/pp-whatslink"
+      ]
+    },
+    {
+      "path": "/sre/pp/集群",
+      "name": "集群",
+      "dirs": [],
+      "docs": [
+        "/sre/pp/集群/pp-分用户kubectl",
+        "/sre/pp/集群/pp-集群-端口",
+        "/sre/pp/集群/pp-集群日志",
+        "/sre/pp/集群/pp-镜像",
+        "/sre/pp/集群/pp-空间迁移",
+        "/sre/pp/集群/pp-云平台权限导出",
+        "/sre/pp/集群/pp-ack",
+        "/sre/pp/集群/pp-cm账号密码",
+        "/sre/pp/集群/pp-collect",
+        "/sre/pp/集群/pp-ingress",
+        "/sre/pp/集群/pp-nsq",
+        "/sre/pp/集群/pp-xops"
+      ]
+    },
+    {
+      "path": "/sre/pp/监控",
+      "name": "监控",
+      "dirs": [],
+      "docs": [
+        "/sre/pp/监控/pp-监控",
+        "/sre/pp/监控/pp-日志",
+        "/sre/pp/监控/pp-账单",
+        "/sre/pp/监控/pp-alert-gw",
+        "/sre/pp/监控/pp-atop",
+        "/sre/pp/监控/pp-elk",
+        "/sre/pp/监控/pp-fluent",
+        "/sre/pp/监控/pp-nsq排查"
+      ]
+    },
+    {
+      "path": "/sre/pp/平台业务",
+      "name": "平台业务",
+      "dirs": [],
+      "docs": [
+        "/sre/pp/平台业务/pp-多域名",
+        "/sre/pp/平台业务/pp-平台运维操作指引",
+        "/sre/pp/平台业务/pp-前端采集资源",
+        "/sre/pp/平台业务/pp-日志筛查",
+        "/sre/pp/平台业务/pp-速度优化",
+        "/sre/pp/平台业务/pp-验证码",
+        "/sre/pp/平台业务/pp-oceanbase"
+      ]
+    },
+    {
+      "path": "/sre/pp/迁移",
+      "name": "迁移",
+      "dirs": [],
+      "docs": [
+        "/sre/pp/迁移/pp-clb验证",
+        "/sre/pp/迁移/pp-dts迁移"
+      ]
+    },
+    {
+      "path": "/sre/pp/数据库",
+      "name": "数据库",
+      "dirs": [],
+      "docs": [
+        "/sre/pp/数据库/pp-更改表",
+        "/sre/pp/数据库/tc-mysql",
+        "/sre/pp/数据库/tc-redis"
+      ]
+    },
+    {
+      "path": "/sre/pp/学习",
+      "name": "学习",
+      "dirs": [],
+      "docs": [
+        "/sre/pp/学习/pp-学习任务",
+        "/sre/pp/学习/pp-ai"
+      ]
+    },
+    {
+      "path": "/sre/pp/巡检",
+      "name": "巡检",
+      "dirs": [],
+      "docs": [
+        "/sre/pp/巡检/pp-清理",
+        "/sre/pp/巡检/pp-系统脚本"
+      ]
+    },
+    {
+      "path": "/sre/pp/中台业务",
+      "name": "中台业务",
+      "dirs": [],
+      "docs": [
+        "/sre/pp/中台业务/pp-采集",
+        "/sre/pp/中台业务/pp-归档",
+        "/sre/pp/中台业务/pp-截图积压",
+        "/sre/pp/中台业务/pp-中台-脚本",
+        "/sre/pp/中台业务/pp-重采",
+        "/sre/pp/中台业务/pp-转码",
+        "/sre/pp/中台业务/pp-转码-node",
+        "/sre/pp/中台业务/pp-fast-start",
+        "/sre/pp/中台业务/pp-http-down部署",
+        "/sre/pp/中台业务/pp-http-down更新",
+        "/sre/pp/中台业务/pp-httpdown-机器",
+        "/sre/pp/中台业务/pp-speedtest"
+      ]
+    },
+    {
+      "path": "/sre/pp/bak",
+      "name": "bak",
+      "dirs": [],
+      "docs": [
+        "/sre/pp/bak/pp-更新ip",
+        "/sre/pp/bak/pp-火山-httpdown",
+        "/sre/pp/bak/pp-ingress-nginx",
+        "/sre/pp/bak/pp-prom"
+      ]
+    },
+    {
+      "path": "/sre/pp/redis",
+      "name": "redis",
+      "dirs": [],
+      "docs": [
+        "/sre/pp/redis/new"
+      ]
+    },
+    {
+      "path": "/sre/pp/vps",
+      "name": "vps",
+      "dirs": [],
+      "docs": [
+        "/sre/pp/vps/pp-荷兰",
+        "/sre/pp/vps/pp-vps续费"
+      ]
+    },
+    {
+      "path": "/sre/saas",
+      "name": "saas",
+      "dirs": [
+        "/sre/saas/排查",
+        "/sre/saas/jenkins"
+      ],
+      "docs": []
+    },
+    {
+      "path": "/sre/saas/排查",
+      "name": "排查",
+      "dirs": [],
+      "docs": [
+        "/sre/saas/排查/域名"
+      ]
+    },
+    {
+      "path": "/sre/saas/jenkins",
+      "name": "jenkins",
+      "dirs": [],
+      "docs": [
+        "/sre/saas/jenkins/saas-dev"
+      ]
+    },
+    {
+      "path": "/sre/web3",
+      "name": "web3",
+      "dirs": [],
+      "docs": [
+        "/sre/web3/缩减副本",
+        "/sre/web3/saas mysql",
+        "/sre/web3/web3-mysql环境"
+      ]
+    },
+    {
+      "path": "/windows",
+      "name": "windows",
+      "dirs": [
+        "/windows/主机",
+        "/windows/Excel",
+        "/windows/game",
+        "/windows/mac",
+        "/windows/tools",
+        "/windows/typora"
+      ],
+      "docs": [
+        "/windows/查看主板支持内存",
+        "/windows/高效工具",
+        "/windows/功耗墙解除",
+        "/windows/官方windows镜像下载",
+        "/windows/口袋阅",
+        "/windows/软件安装",
+        "/windows/微信多开",
+        "/windows/字幕提取",
+        "/windows/Axure Pr9安装",
+        "/windows/bat",
+        "/windows/clash",
+        "/windows/docker-osx",
+        "/windows/git命令",
+        "/windows/githup语法",
+        "/windows/gmail-配置",
+        "/windows/google-translate",
+        "/windows/sublime",
+        "/windows/windows-窗口",
+        "/windows/windows-恢复分区修复",
+        "/windows/windows-开机启动",
+        "/windows/windows-命令",
+        "/windows/windows-批量安装软件",
+        "/windows/windows-注册表reg文件",
+        "/windows/windows-注册服务",
+        "/windows/windows-docker",
+        "/windows/windows-server配置麦克风",
+        "/windows/windows-ssh",
+        "/windows/windows激活码",
+        "/windows/windows系统监控",
+        "/windows/windows优化",
+        "/windows/windwos-tree",
+        "/windows/WSL使用"
+      ]
+    },
+    {
+      "path": "/windows/主机",
+      "name": "主机",
+      "dirs": [],
+      "docs": [
+        "/windows/主机/华南主板"
+      ]
+    },
+    {
+      "path": "/windows/Excel",
+      "name": "Excel",
+      "dirs": [],
+      "docs": [
+        "/windows/Excel/Excel命令"
+      ]
+    },
+    {
+      "path": "/windows/game",
+      "name": "game",
+      "dirs": [],
+      "docs": [
+        "/windows/game/c++2010"
+      ]
+    },
+    {
+      "path": "/windows/mac",
+      "name": "mac",
+      "dirs": [],
+      "docs": [
+        "/windows/mac/mac-黑苹果",
+        "/windows/mac/mac-使用",
+        "/windows/mac/mac-显示器",
+        "/windows/mac/mac-typora"
+      ]
+    },
+    {
+      "path": "/windows/tools",
+      "name": "tools",
+      "dirs": [],
+      "docs": [
+        "/windows/tools/FFmpeg"
+      ]
+    },
+    {
+      "path": "/windows/typora",
+      "name": "typora",
+      "dirs": [],
+      "docs": [
+        "/windows/typora/typora破解",
+        "/windows/typora/typora使用",
+        "/windows/typora/typora思维导图",
+        "/windows/typora/typora语法"
+      ]
+    }
+  ],
+  "extraRoutes": [
+    "/容器/00-planning_and_overall_intro",
+    "/容器/日志监控/README",
+    "/容器/文档系统/docs/SERVICES",
+    "/op/loadballance_ingress_nodeport"
+  ],
+  "docs": [
+    {
+      "id": "292f0a2348b844b5119f",
+      "path": "/安全/端口",
+      "title": "端口",
+      "dir": "/安全",
+      "file": "端口.md"
+    },
+    {
+      "id": "53446ef139b17d5d79df",
+      "path": "/安全/服务器卡死报错",
+      "title": "服务器卡死报错",
+      "dir": "/安全",
+      "file": "服务器卡死报错.md"
+    },
+    {
+      "id": "6d85438bed6b6a1d660c",
+      "path": "/安全/检查md文档密码",
+      "title": "检查md文档密码",
+      "dir": "/安全",
+      "file": "检查md文档密码.md"
+    },
+    {
+      "id": "b90614c2428ef666c8b6",
+      "path": "/安全/流氓病毒",
+      "title": "流氓病毒",
+      "dir": "/安全",
+      "file": "流氓病毒.md"
+    },
+    {
+      "id": "ed99a185afea8bd5c450",
+      "path": "/安全/漏洞",
+      "title": "漏洞",
+      "dir": "/安全",
+      "file": "漏洞.md"
+    },
+    {
+      "id": "080906b562e40575257c",
+      "path": "/安全/系统限制配置",
+      "title": "系统限制配置",
+      "dir": "/安全",
+      "file": "系统限制配置.md"
+    },
+    {
+      "id": "e3af6be8729262a86dd1",
+      "path": "/安全/运维安全",
+      "title": "运维安全",
+      "dir": "/安全",
+      "file": "运维安全.md"
+    },
+    {
+      "id": "a57bed0fbc569b74a681",
+      "path": "/安全/注册表自启动",
+      "title": "注册表自启动",
+      "dir": "/安全",
+      "file": "注册表自启动.md"
+    },
+    {
+      "id": "daeab0f43b4e6e5c6cd3",
+      "path": "/安全/amazon2 -升级 openssh",
+      "title": "amazon2 -升级 openssh",
+      "dir": "/安全",
+      "file": "amazon2 -升级 openssh.md"
+    },
+    {
+      "id": "1b2cbf01574bf2881ba5",
+      "path": "/安全/DNS缓存中毒如何工作",
+      "title": "DNS缓存中毒如何工作",
+      "dir": "/安全",
+      "file": "DNS缓存中毒如何工作.md"
+    },
+    {
+      "id": "682e36d471d4c27e32dc",
+      "path": "/安全/Dos攻击",
+      "title": "Dos攻击",
+      "dir": "/安全",
+      "file": "Dos攻击.md"
+    },
+    {
+      "id": "a2e670341510826f80d5",
+      "path": "/安全/fork炸弹",
+      "title": "fork炸弹",
+      "dir": "/安全",
+      "file": "fork炸弹.md"
+    },
+    {
+      "id": "d5e147d3e9d402920dfb",
+      "path": "/安全/Kali Linux三种网络攻击方法总结(DDoS,CC和ARP欺骗)",
+      "title": "Kali Linux三种网络攻击方法总结(DDoS,CC和ARP欺骗)",
+      "dir": "/安全",
+      "file": "Kali Linux三种网络攻击方法总结(DDoS,CC和ARP欺骗).md"
+    },
+    {
+      "id": "a3e976e9d8b0983a4d5f",
+      "path": "/安全/Linux Kernel nf_tables 本地权限提升漏洞（CVE-2024-1086）",
+      "title": "Linux Kernel nf_tables 本地权限提升漏洞（CVE-2024-1086）",
+      "dir": "/安全",
+      "file": "Linux Kernel nf_tables 本地权限提升漏洞（CVE-2024-1086）.md"
+    },
+    {
+      "id": "77b94b8dc02892a5a805",
+      "path": "/安全/Linux下进程隐藏手段及侦测方法",
+      "title": "Linux下进程隐藏手段及侦测方法",
+      "dir": "/安全",
+      "file": "Linux下进程隐藏手段及侦测方法.md"
+    },
+    {
+      "id": "13aa8528d44a6a92ade3",
+      "path": "/安全/sql注入原理",
+      "title": "sql注入原理",
+      "dir": "/安全",
+      "file": "sql注入原理.md"
+    },
+    {
+      "id": "c6b6bb8dfe28172a1ca1",
+      "path": "/安全/waf开源",
+      "title": "waf开源",
+      "dir": "/安全",
+      "file": "waf开源.md"
+    },
+    {
+      "id": "b36f2f9cef0271914947",
+      "path": "/编程/ai-规范",
+      "title": "ai-规范",
+      "dir": "/编程",
+      "file": "ai-规范.md"
+    },
+    {
+      "id": "65a372c6427dbbb3af4b",
+      "path": "/编程/codex",
+      "title": "codex",
+      "dir": "/编程",
+      "file": "codex.md"
+    },
+    {
+      "id": "f9d1f22d271bf99cf8e7",
+      "path": "/编程/cursor",
+      "title": "cursor",
+      "dir": "/编程",
+      "file": "cursor.md"
+    },
+    {
+      "id": "e49ec61247b4719b7cc5",
+      "path": "/编程/go/go-windows",
+      "title": "go-windows",
+      "dir": "/编程/go",
+      "file": "go-windows.md"
+    },
+    {
+      "id": "3e86a0a3b3aae6c8891c",
+      "path": "/编程/go/go语言基于etcd的服务注册与发现",
+      "title": "go语言基于etcd的服务注册与发现",
+      "dir": "/编程/go",
+      "file": "go语言基于etcd的服务注册与发现.md"
+    },
+    {
+      "id": "970c839ed40d2f590844",
+      "path": "/编程/go/go语言grpc的基础使用",
+      "title": "go语言grpc的基础使用",
+      "dir": "/编程/go",
+      "file": "go语言grpc的基础使用.md"
+    },
+    {
+      "id": "1187597cbd864ec0554f",
+      "path": "/编程/go/golang",
+      "title": "golang",
+      "dir": "/编程/go",
+      "file": "golang.md"
+    },
+    {
+      "id": "6a82403a28605bc8f684",
+      "path": "/编程/idea-快捷键",
+      "title": "idea-快捷键",
+      "dir": "/编程",
+      "file": "idea-快捷键.md"
+    },
+    {
+      "id": "153f351c588a81a9b520",
+      "path": "/编程/IDEA/maven",
+      "title": "maven",
+      "dir": "/编程/IDEA",
+      "file": "maven.md"
+    },
+    {
+      "id": "0b7c7b88e4dbcdf2e0c5",
+      "path": "/编程/java-学习",
+      "title": "java-学习",
+      "dir": "/编程",
+      "file": "java-学习.md"
+    },
+    {
+      "id": "f1b9570b9668fb648f61",
+      "path": "/编程/JAVA/JAVA-安装",
+      "title": "JAVA-安装",
+      "dir": "/编程/JAVA",
+      "file": "JAVA-安装.md"
+    },
+    {
+      "id": "d8d2bd31523107e43662",
+      "path": "/编程/kiro",
+      "title": "kiro",
+      "dir": "/编程",
+      "file": "kiro.md"
+    },
+    {
+      "id": "66ebb6e6cf85fe24afc7",
+      "path": "/编程/kiro-hook",
+      "title": "kiro-hook",
+      "dir": "/编程",
+      "file": "kiro-hook.md"
+    },
+    {
+      "id": "1870e5c1b724496427ac",
+      "path": "/编程/openclaw/openclaw",
+      "title": "openclaw",
+      "dir": "/编程/openclaw",
+      "file": "openclaw.md"
+    },
+    {
+      "id": "f42f7b445477b3376e39",
+      "path": "/编程/openclaw/openclaw-迁移",
+      "title": "openclaw-迁移",
+      "dir": "/编程/openclaw",
+      "file": "openclaw-迁移.md"
+    },
+    {
+      "id": "8f72ec780b4da6f0534a",
+      "path": "/编程/openspc",
+      "title": "openspc",
+      "dir": "/编程",
+      "file": "openspc.md"
+    },
+    {
+      "id": "b18e683a6ee398b8e652",
+      "path": "/编程/python/conda/conda命令",
+      "title": "conda命令",
+      "dir": "/编程/python/conda",
+      "file": "conda命令.md"
+    },
+    {
+      "id": "e17a0c4ed5da920db06c",
+      "path": "/编程/python/fastapi概念",
+      "title": "fastapi概念",
+      "dir": "/编程/python",
+      "file": "fastapi概念.md"
+    },
+    {
+      "id": "4c07f43a70c284b1de6b",
+      "path": "/编程/python/pd/python-pd学习",
+      "title": "python-pd学习",
+      "dir": "/编程/python/pd",
+      "file": "python-pd学习.md"
+    },
+    {
+      "id": "09746128749a6d1212fb",
+      "path": "/编程/python/pip换源",
+      "title": "pip换源",
+      "dir": "/编程/python",
+      "file": "pip换源.md"
+    },
+    {
+      "id": "5bc12c8496f53dfafeac",
+      "path": "/编程/python/python-安装",
+      "title": "python-安装",
+      "dir": "/编程/python",
+      "file": "python-安装.md"
+    },
+    {
+      "id": "1dcd9054ba2676f5116f",
+      "path": "/编程/python/python-查看方法调用方式",
+      "title": "python-查看方法调用方式",
+      "dir": "/编程/python",
+      "file": "python-查看方法调用方式.md"
+    },
+    {
+      "id": "b12f70e9abc6f3135e0d",
+      "path": "/编程/python/python-点击",
+      "title": "python-点击",
+      "dir": "/编程/python",
+      "file": "python-点击.md"
+    },
+    {
+      "id": "3b2d0aa8a7bfcd9df5bb",
+      "path": "/编程/python/python-接口",
+      "title": "python-接口",
+      "dir": "/编程/python",
+      "file": "python-接口.md"
+    },
+    {
+      "id": "9e8bf32f25fbedfb4ddb",
+      "path": "/编程/python/python-cookie",
+      "title": "python-cookie",
+      "dir": "/编程/python",
+      "file": "python-cookie.md"
+    },
+    {
+      "id": "d15fb81614c30daeb341",
+      "path": "/编程/python/python-cuda",
+      "title": "python-cuda",
+      "dir": "/编程/python",
+      "file": "python-cuda.md"
+    },
+    {
+      "id": "3f0a9cbaf327ae895c76",
+      "path": "/编程/python/python-fabric",
+      "title": "python-fabric",
+      "dir": "/编程/python",
+      "file": "python-fabric.md"
+    },
+    {
+      "id": "fdcf87663cc1a3518a15",
+      "path": "/编程/python/python-ftp",
+      "title": "python-ftp",
+      "dir": "/编程/python",
+      "file": "python-ftp.md"
+    },
+    {
+      "id": "c7b93f1c4d6058bf1562",
+      "path": "/编程/python/python-json",
+      "title": "python-json",
+      "dir": "/编程/python",
+      "file": "python-json.md"
+    },
+    {
+      "id": "d41e714758353d014e6e",
+      "path": "/编程/python/python-re",
+      "title": "python-re",
+      "dir": "/编程/python",
+      "file": "python-re.md"
+    },
+    {
+      "id": "c291f88b0900b0ee890a",
+      "path": "/编程/python/python-selenium",
+      "title": "python-selenium",
+      "dir": "/编程/python",
+      "file": "python-selenium.md"
+    },
+    {
+      "id": "ec6c5e78dbb52117ca5c",
+      "path": "/编程/python/python-self",
+      "title": "python-self",
+      "dir": "/编程/python",
+      "file": "python-self.md"
+    },
+    {
+      "id": "a7dd44e976c81b0f4d46",
+      "path": "/编程/python/python-tk",
+      "title": "python-tk",
+      "dir": "/编程/python",
+      "file": "python-tk.md"
+    },
+    {
+      "id": "7db26b9c7cc8e3537c14",
+      "path": "/编程/python/python-uv",
+      "title": "python-uv",
+      "dir": "/编程/python",
+      "file": "python-uv.md"
+    },
+    {
+      "id": "e2dc2fabb35c104822c8",
+      "path": "/编程/python/python多线程",
+      "title": "python多线程",
+      "dir": "/编程/python",
+      "file": "python多线程.md"
+    },
+    {
+      "id": "8d816416df4e5256fd66",
+      "path": "/编程/python/Python内置小工具",
+      "title": "Python内置小工具",
+      "dir": "/编程/python",
+      "file": "Python内置小工具.md"
+    },
+    {
+      "id": "d7b5ee98f10477a4f6ec",
+      "path": "/编程/python/python新增文件夹",
+      "title": "python新增文件夹",
+      "dir": "/编程/python",
+      "file": "python新增文件夹.md"
+    },
+    {
+      "id": "c3e7ad83a1dc4fd16890",
+      "path": "/编程/python/Python学习",
+      "title": "Python学习",
+      "dir": "/编程/python",
+      "file": "Python学习.md"
+    },
+    {
+      "id": "75574d05477e92a0be0a",
+      "path": "/编程/python/PythonOS文件目录方法",
+      "title": "PythonOS文件目录方法",
+      "dir": "/编程/python",
+      "file": "PythonOS文件目录方法.md"
+    },
+    {
+      "id": "0fa9cb62597eeee65713",
+      "path": "/编程/python/tk/python-tk",
+      "title": "python-tk",
+      "dir": "/编程/python/tk",
+      "file": "python-tk.md"
+    },
+    {
+      "id": "7ccaf58036b5d4675ed0",
+      "path": "/编程/telegram/tg-机器人",
+      "title": "tg-机器人",
+      "dir": "/编程/telegram",
+      "file": "tg-机器人.md"
+    },
+    {
+      "id": "6f0ae16e9ef55ecb030f",
+      "path": "/编程/vscode/gatsby",
+      "title": "gatsby",
+      "dir": "/编程/vscode",
+      "file": "gatsby.md"
+    },
+    {
+      "id": "77df814229928813af95",
+      "path": "/编程/vscode/vscode使用",
+      "title": "vscode使用",
+      "dir": "/编程/vscode",
+      "file": "vscode使用.md"
+    },
+    {
+      "id": "8bd149bd2f73dfda0f72",
+      "path": "/编程/vue/html+css",
+      "title": "html+css",
+      "dir": "/编程/vue",
+      "file": "html+css.md"
+    },
+    {
+      "id": "54c889b50658ae3e3189",
+      "path": "/编程/vue/SSO",
+      "title": "SSO",
+      "dir": "/编程/vue",
+      "file": "SSO.md"
+    },
+    {
+      "id": "36189f60bd14927ad712",
+      "path": "/编程/vue/vue-使用",
+      "title": "vue-使用",
+      "dir": "/编程/vue",
+      "file": "vue-使用.md"
+    },
+    {
+      "id": "3d2baf80ba381747dc7e",
+      "path": "/编程/vue/vue-cloud9",
+      "title": "vue-cloud9",
+      "dir": "/编程/vue",
+      "file": "vue-cloud9.md"
+    },
+    {
+      "id": "63871204b8b6813e2224",
+      "path": "/编程/webassembly/webAssembly-学习",
+      "title": "webAssembly-学习",
+      "dir": "/编程/webassembly",
+      "file": "webAssembly-学习.md"
+    },
+    {
+      "id": "a2ca4bceae217a3fa131",
+      "path": "/部署/CICD",
+      "title": "CICD",
+      "dir": "/部署",
+      "file": "CICD.md"
+    },
+    {
+      "id": "c9572c010a455d60dca1",
+      "path": "/部署/gitea",
+      "title": "gitea",
+      "dir": "/部署",
+      "file": "gitea.md"
+    },
+    {
+      "id": "edaf3c82603943f8e317",
+      "path": "/部署/tools/画布",
+      "title": "画布",
+      "dir": "/部署/tools",
+      "file": "画布.md"
+    },
+    {
+      "id": "288103dc36eb2bf0de94",
+      "path": "/仓库",
+      "title": "仓库",
+      "dir": "/",
+      "file": "仓库.md"
+    },
+    {
+      "id": "7e3f0a17aa7265e9a913",
+      "path": "/测试/查看磁盘性能",
+      "title": "查看磁盘性能",
+      "dir": "/测试",
+      "file": "查看磁盘性能.md"
+    },
+    {
+      "id": "2822bd6b7ec58cebda35",
+      "path": "/测试/固态磁盘晶体区别",
+      "title": "固态磁盘晶体区别",
+      "dir": "/测试",
+      "file": "固态磁盘晶体区别.md"
+    },
+    {
+      "id": "600a2875177dd1c8c951",
+      "path": "/测试/监控流量centos",
+      "title": "监控流量centos",
+      "dir": "/测试",
+      "file": "监控流量centos.md"
+    },
+    {
+      "id": "ab47d88ce3188331dd4d",
+      "path": "/测试/流量/测试时间长度",
+      "title": "测试时间长度",
+      "dir": "/测试/流量",
+      "file": "测试时间长度.md"
+    },
+    {
+      "id": "c82f2f936f0d080a74da",
+      "path": "/测试/流量/jmeter",
+      "title": "jmeter",
+      "dir": "/测试/流量",
+      "file": "jmeter.md"
+    },
+    {
+      "id": "2e1e136b58720343cc38",
+      "path": "/测试/网站AB压测",
+      "title": "网站AB压测",
+      "dir": "/测试",
+      "file": "网站AB压测.md"
+    },
+    {
+      "id": "190a5d84b16d45305fd7",
+      "path": "/测试/硬盘&网络测试",
+      "title": "硬盘&网络测试",
+      "dir": "/测试",
+      "file": "硬盘&网络测试.md"
+    },
+    {
+      "id": "b1eb3e6302c70317f689",
+      "path": "/测试/jmeter",
+      "title": "jmeter",
+      "dir": "/测试",
+      "file": "jmeter.md"
+    },
+    {
+      "id": "0158736cd260237c2392",
+      "path": "/测试/linux缓存优化",
+      "title": "linux缓存优化",
+      "dir": "/测试",
+      "file": "linux缓存优化.md"
+    },
+    {
+      "id": "c57963dfb7ecd2f590fc",
+      "path": "/测试/mysql压测",
+      "title": "mysql压测",
+      "dir": "/测试",
+      "file": "mysql压测.md"
+    },
+    {
+      "id": "8639626c048ab15905bf",
+      "path": "/测试/RDS测试",
+      "title": "RDS测试",
+      "dir": "/测试",
+      "file": "RDS测试.md"
+    },
+    {
+      "id": "5f0aab0c71b51cc9ea3b",
+      "path": "/测试/redis测试",
+      "title": "redis测试",
+      "dir": "/测试",
+      "file": "redis测试.md"
+    },
+    {
+      "id": "fed910a1e64709a7af51",
+      "path": "/测试/windows磁盘-U盘测速工具",
+      "title": "windows磁盘-U盘测速工具",
+      "dir": "/测试",
+      "file": "windows磁盘-U盘测速工具.md"
+    },
+    {
+      "id": "bbf8da5dc2e597793fd9",
+      "path": "/常规单词",
+      "title": "常规单词",
+      "dir": "/",
+      "file": "常规单词.md"
+    },
+    {
+      "id": "34dd81d615b4e31414f5",
+      "path": "/储存/磁盘分区及扩容",
+      "title": "磁盘分区及扩容",
+      "dir": "/储存",
+      "file": "磁盘分区及扩容.md"
+    },
+    {
+      "id": "95430315000199ec53c9",
+      "path": "/储存/分布式存储",
+      "title": "分布式存储",
+      "dir": "/储存",
+      "file": "分布式存储.md"
+    },
+    {
+      "id": "6718b53a54bc5f7bca7d",
+      "path": "/储存/ceph安装",
+      "title": "ceph安装",
+      "dir": "/储存",
+      "file": "ceph安装.md"
+    },
+    {
+      "id": "eed2ad764a76a856a3a8",
+      "path": "/储存/ceph概念",
+      "title": "ceph概念",
+      "dir": "/储存",
+      "file": "ceph概念.md"
+    },
+    {
+      "id": "1c3cb34a614d686bcf5c",
+      "path": "/储存/dragonfly",
+      "title": "dragonfly",
+      "dir": "/储存",
+      "file": "dragonfly.md"
+    },
+    {
+      "id": "4f3b87e2adb9e2443712",
+      "path": "/储存/LVM系统增加磁盘容量",
+      "title": "LVM系统增加磁盘容量",
+      "dir": "/储存",
+      "file": "LVM系统增加磁盘容量.md"
+    },
+    {
+      "id": "110990d6ee9fcac673fc",
+      "path": "/储存/nfs网络文件系统",
+      "title": "nfs网络文件系统",
+      "dir": "/储存",
+      "file": "nfs网络文件系统.md"
+    },
+    {
+      "id": "a082e810b55a6e586bfc",
+      "path": "/代办事项",
+      "title": "代办事项",
+      "dir": "/",
+      "file": "代办事项.md"
+    },
+    {
+      "id": "bd006f6e684c71fe0e92",
+      "path": "/对外文档/登录vps浏览器",
+      "title": "登录vps浏览器",
+      "dir": "/对外文档",
+      "file": "登录vps浏览器.md"
+    },
+    {
+      "id": "db6c2158b45c47075290",
+      "path": "/对外文档/谷歌开发者账号",
+      "title": "谷歌开发者账号",
+      "dir": "/对外文档",
+      "file": "谷歌开发者账号.md"
+    },
+    {
+      "id": "c8a6d1d2a26a0589e378",
+      "path": "/对外文档/身份证",
+      "title": "身份证",
+      "dir": "/对外文档",
+      "file": "身份证.md"
+    },
+    {
+      "id": "1df6e457cc6b827af327",
+      "path": "/对外文档/sre对外/cdn检测",
+      "title": "cdn检测",
+      "dir": "/对外文档/sre对外",
+      "file": "cdn检测.md"
+    },
+    {
+      "id": "c67ace651d377ccc8ee9",
+      "path": "/对外文档/sre对外/cloudflare证书",
+      "title": "cloudflare证书",
+      "dir": "/对外文档/sre对外",
+      "file": "cloudflare证书.md"
+    },
+    {
+      "id": "d28c401f270c159bdb2f",
+      "path": "/对外文档/sre对外/jumpserver使用",
+      "title": "jumpserver使用",
+      "dir": "/对外文档/sre对外",
+      "file": "jumpserver使用.md"
+    },
+    {
+      "id": "1196e2b37bf319ca1b8e",
+      "path": "/对外文档/sre对外/sre-argocd",
+      "title": "sre-argocd",
+      "dir": "/对外文档/sre对外",
+      "file": "sre-argocd.md"
+    },
+    {
+      "id": "be08eccda91e2405f9c9",
+      "path": "/对外文档/sre对外/sre-loki临时查看日志",
+      "title": "sre-loki临时查看日志",
+      "dir": "/对外文档/sre对外",
+      "file": "sre-loki临时查看日志.md"
+    },
+    {
+      "id": "d5b6310e1730c920de5d",
+      "path": "/对外文档/sre对外/sre-slack (copy)",
+      "title": "sre-slack (copy)",
+      "dir": "/对外文档/sre对外",
+      "file": "sre-slack (copy).md"
+    },
+    {
+      "id": "652a12f9f37234eae3c3",
+      "path": "/对外文档/TG防盗",
+      "title": "TG防盗",
+      "dir": "/对外文档",
+      "file": "TG防盗.md"
+    },
+    {
+      "id": "b453dc20e5aecd11b4fe",
+      "path": "/对外文档/tortoisegit使用",
+      "title": "tortoisegit使用",
+      "dir": "/对外文档",
+      "file": "tortoisegit使用.md"
+    },
+    {
+      "id": "80123e180d5a04dca405",
+      "path": "/对外文档/vpn使用",
+      "title": "vpn使用",
+      "dir": "/对外文档",
+      "file": "vpn使用.md"
+    },
+    {
+      "id": "07f788fb4e1b84418387",
+      "path": "/複習",
+      "title": "複習",
+      "dir": "/",
+      "file": "複習.md"
+    },
+    {
+      "id": "1dd84465bd634653c973",
+      "path": "/监控日志收集/elastic-search部署",
+      "title": "elastic-search部署",
+      "dir": "/监控日志收集",
+      "file": "elastic-search部署.md"
+    },
+    {
+      "id": "f5ce0dbebc93cdfe8800",
+      "path": "/监控日志收集/ELK",
+      "title": "ELK",
+      "dir": "/监控日志收集",
+      "file": "ELK.md"
+    },
+    {
+      "id": "8d8cbcba24aadc7d0b14",
+      "path": "/监控日志收集/ELK一键部署",
+      "title": "ELK一键部署",
+      "dir": "/监控日志收集",
+      "file": "ELK一键部署.md"
+    },
+    {
+      "id": "8225e873fe2428031097",
+      "path": "/监控日志收集/es优化",
+      "title": "es优化",
+      "dir": "/监控日志收集",
+      "file": "es优化.md"
+    },
+    {
+      "id": "35ef07def0afa2d09f5e",
+      "path": "/监控日志收集/Kibana查询",
+      "title": "Kibana查询",
+      "dir": "/监控日志收集",
+      "file": "Kibana查询.md"
+    },
+    {
+      "id": "c69927e24a05a238fcb0",
+      "path": "/监控日志收集/Prometheus部署",
+      "title": "Prometheus部署",
+      "dir": "/监控日志收集",
+      "file": "Prometheus部署.md"
+    },
+    {
+      "id": "c73685c5388d37133caf",
+      "path": "/监控日志收集/prometheus迁移",
+      "title": "prometheus迁移",
+      "dir": "/监控日志收集",
+      "file": "prometheus迁移.md"
+    },
+    {
+      "id": "8d8135af6018760b625c",
+      "path": "/监控日志收集/prometheus一键脚本",
+      "title": "prometheus一键脚本",
+      "dir": "/监控日志收集",
+      "file": "prometheus一键脚本.md"
+    },
+    {
+      "id": "8bb0771bff37fe0e7667",
+      "path": "/监控日志收集/zabbix",
+      "title": "zabbix",
+      "dir": "/监控日志收集",
+      "file": "zabbix.md"
+    },
+    {
+      "id": "9a46bf7bd2512338ab38",
+      "path": "/脚本说明",
+      "title": "脚本说明",
+      "dir": "/",
+      "file": "脚本说明.md"
+    },
+    {
+      "id": "78234e4fdc443fe7f2b2",
+      "path": "/论文",
+      "title": "论文",
+      "dir": "/",
+      "file": "论文.md"
+    },
+    {
+      "id": "b50716f13c5cedb0b395",
+      "path": "/区块链/币安购买USDT",
+      "title": "币安购买USDT",
+      "dir": "/区块链",
+      "file": "币安购买USDT.md"
+    },
+    {
+      "id": "355f00f95af40fcfff56",
+      "path": "/区块链/币安卖出USDT",
+      "title": "币安卖出USDT",
+      "dir": "/区块链",
+      "file": "币安卖出USDT.md"
+    },
+    {
+      "id": "95322fdf623bdcfd955a",
+      "path": "/区块链/区块链节点，全节点介绍",
+      "title": "区块链节点，全节点介绍",
+      "dir": "/区块链",
+      "file": "区块链节点，全节点介绍.md"
+    },
+    {
+      "id": "c4660761c2a5d311a22b",
+      "path": "/容器/仓库/k8s-gitlab",
+      "title": "k8s-gitlab",
+      "dir": "/容器/仓库",
+      "file": "k8s-gitlab.md"
+    },
+    {
+      "id": "bc0e488d1b1636185297",
+      "path": "/容器/仓库/k8s-nexus",
+      "title": "k8s-nexus",
+      "dir": "/容器/仓库",
+      "file": "k8s-nexus.md"
+    },
+    {
+      "id": "dc537328d57cac797963",
+      "path": "/容器/仓库/k8s-svn",
+      "title": "k8s-svn",
+      "dir": "/容器/仓库",
+      "file": "k8s-svn.md"
+    },
+    {
+      "id": "9b4594583fe534ea06a5",
+      "path": "/容器/测试",
+      "title": "测试",
+      "dir": "/容器",
+      "file": "测试.md"
+    },
+    {
+      "id": "a3925bac35f71440bc11",
+      "path": "/容器/测试/k8s-测试",
+      "title": "k8s-测试",
+      "dir": "/容器/测试",
+      "file": "k8s-测试.md"
+    },
+    {
+      "id": "0f406ee3eb14bcbb8584",
+      "path": "/容器/测试/k8s-rockyos",
+      "title": "k8s-rockyos",
+      "dir": "/容器/测试",
+      "file": "k8s-rockyos.md"
+    },
+    {
+      "id": "fb59f21edde5708064f3",
+      "path": "/容器/存储/k8s-测试etcd速度",
+      "title": "k8s-测试etcd速度",
+      "dir": "/容器/存储",
+      "file": "k8s-测试etcd速度.md"
+    },
+    {
+      "id": "31cfd66e920461baa13a",
+      "path": "/容器/存储/k8s-ceph-csi",
+      "title": "k8s-ceph-csi",
+      "dir": "/容器/存储",
+      "file": "k8s-ceph-csi.md"
+    },
+    {
+      "id": "f5c6ad2f9ec5be3777b9",
+      "path": "/容器/存储/k8s-ftc",
+      "title": "k8s-ftc",
+      "dir": "/容器/存储",
+      "file": "k8s-ftc.md"
+    },
+    {
+      "id": "b4ed3ab3c353dc4cd86b",
+      "path": "/容器/存储/k8s-ftp",
+      "title": "k8s-ftp",
+      "dir": "/容器/存储",
+      "file": "k8s-ftp.md"
+    },
+    {
+      "id": "039bba1eee572af55e81",
+      "path": "/容器/存储/k8s-MinIO",
+      "title": "k8s-MinIO",
+      "dir": "/容器/存储",
+      "file": "k8s-MinIO.md"
+    },
+    {
+      "id": "6f1f1898aa67f69208ca",
+      "path": "/容器/存储/k8s-provisioner-local",
+      "title": "k8s-provisioner-local",
+      "dir": "/容器/存储",
+      "file": "k8s-provisioner-local.md"
+    },
+    {
+      "id": "174d5d107890c0a1ebf1",
+      "path": "/容器/存储/k8s-PV和PVC",
+      "title": "k8s-PV和PVC",
+      "dir": "/容器/存储",
+      "file": "k8s-PV和PVC.md"
+    },
+    {
+      "id": "571652601de387db6d5a",
+      "path": "/容器/存储/k8s-rook-ceph",
+      "title": "k8s-rook-ceph",
+      "dir": "/容器/存储",
+      "file": "k8s-rook-ceph.md"
+    },
+    {
+      "id": "80b1cc57c95fa83112aa",
+      "path": "/容器/存储/k8s-sc",
+      "title": "k8s-sc",
+      "dir": "/容器/存储",
+      "file": "k8s-sc.md"
+    },
+    {
+      "id": "43565db9f4fe678ce542",
+      "path": "/容器/存储/k8s-Velero结合minio实现业务数据备份与恢复",
+      "title": "k8s-Velero结合minio实现业务数据备份与恢复",
+      "dir": "/容器/存储",
+      "file": "k8s-Velero结合minio实现业务数据备份与恢复.md"
+    },
+    {
+      "id": "737576127abd05ee2ed8",
+      "path": "/容器/多集群/数据库迁移",
+      "title": "数据库迁移",
+      "dir": "/容器/多集群",
+      "file": "数据库迁移.md"
+    },
+    {
+      "id": "5e6497412fd4911fe341",
+      "path": "/容器/多集群/k3s",
+      "title": "k3s",
+      "dir": "/容器/多集群",
+      "file": "k3s.md"
+    },
+    {
+      "id": "b92fc1bf3ffe9bb9c403",
+      "path": "/容器/多集群/k8s-karmada",
+      "title": "k8s-karmada",
+      "dir": "/容器/多集群",
+      "file": "k8s-karmada.md"
+    },
+    {
+      "id": "9b95919b0d795a8d2d4b",
+      "path": "/容器/多集群/k8s-kubeconfig",
+      "title": "k8s-kubeconfig",
+      "dir": "/容器/多集群",
+      "file": "k8s-kubeconfig.md"
+    },
+    {
+      "id": "44e9d9415318f40d663b",
+      "path": "/容器/多集群/k8s-OpenKruise",
+      "title": "k8s-OpenKruise",
+      "dir": "/容器/多集群",
+      "file": "k8s-OpenKruise.md"
+    },
+    {
+      "id": "f2b840c19b379bd1409d",
+      "path": "/容器/多云部署k3s",
+      "title": "多云部署k3s",
+      "dir": "/容器",
+      "file": "多云部署k3s.md"
+    },
+    {
+      "id": "273d118b483ada89fa1f",
+      "path": "/容器/工单系统/k8s-zammad",
+      "title": "k8s-zammad",
+      "dir": "/容器/工单系统",
+      "file": "k8s-zammad.md"
+    },
+    {
+      "id": "81ac7778ea2cc30417e9",
+      "path": "/容器/控制平面/k8-rancher",
+      "title": "k8-rancher",
+      "dir": "/容器/控制平面",
+      "file": "k8-rancher.md"
+    },
+    {
+      "id": "ee7ecf04c13df69d3d6a",
+      "path": "/容器/控制平面/k8s-cmdbuild",
+      "title": "k8s-cmdbuild",
+      "dir": "/容器/控制平面",
+      "file": "k8s-cmdbuild.md"
+    },
+    {
+      "id": "bd0eaa8e9cb1a825be10",
+      "path": "/容器/控制平面/k8s-cockpit",
+      "title": "k8s-cockpit",
+      "dir": "/容器/控制平面",
+      "file": "k8s-cockpit.md"
+    },
+    {
+      "id": "eddafa4a211df5eaf3c0",
+      "path": "/容器/控制平面/k8s-keycloak",
+      "title": "k8s-keycloak",
+      "dir": "/容器/控制平面",
+      "file": "k8s-keycloak.md"
+    },
+    {
+      "id": "566106eb999c21dc15e4",
+      "path": "/容器/控制平面/k8s-kubeboard",
+      "title": "k8s-kubeboard",
+      "dir": "/容器/控制平面",
+      "file": "k8s-kubeboard.md"
+    },
+    {
+      "id": "f3b0c608486805fe942c",
+      "path": "/容器/控制平面/k8s-kubesphere",
+      "title": "k8s-kubesphere",
+      "dir": "/容器/控制平面",
+      "file": "k8s-kubesphere.md"
+    },
+    {
+      "id": "ecaa7cedf567e1710ae2",
+      "path": "/容器/控制平面/k8s-weiyi",
+      "title": "k8s-weiyi",
+      "dir": "/容器/控制平面",
+      "file": "k8s-weiyi.md"
+    },
+    {
+      "id": "c6d61b037ea72830512e",
+      "path": "/容器/日志监控/backup/k8s-prometheus",
+      "title": "k8s-prometheus",
+      "dir": "/容器/日志监控/backup",
+      "file": "k8s-prometheus.md"
+    },
+    {
+      "id": "27855c4a15fd3c2822e3",
+      "path": "/容器/日志监控/k8s-CheckCle",
+      "title": "k8s-CheckCle",
+      "dir": "/容器/日志监控",
+      "file": "k8s-CheckCle.md"
+    },
+    {
+      "id": "44548be0acd0cea5829c",
+      "path": "/容器/日志监控/k8s-consul",
+      "title": "k8s-consul",
+      "dir": "/容器/日志监控",
+      "file": "k8s-consul.md"
+    },
+    {
+      "id": "bdf0d6eeb88a6ec50762",
+      "path": "/容器/日志监控/k8s-DeepFlow",
+      "title": "k8s-DeepFlow",
+      "dir": "/容器/日志监控",
+      "file": "k8s-DeepFlow.md"
+    },
+    {
+      "id": "82852f69d375b9436284",
+      "path": "/容器/日志监控/k8s-domain-admin",
+      "title": "k8s-domain-admin",
+      "dir": "/容器/日志监控",
+      "file": "k8s-domain-admin.md"
+    },
+    {
+      "id": "37e523214d51efd201a0",
+      "path": "/容器/日志监控/k8s-doris",
+      "title": "k8s-doris",
+      "dir": "/容器/日志监控",
+      "file": "k8s-doris.md"
+    },
+    {
+      "id": "479df742280c0d5cf7c4",
+      "path": "/容器/日志监控/k8s-es",
+      "title": "k8s-es",
+      "dir": "/容器/日志监控",
+      "file": "k8s-es.md"
+    },
+    {
+      "id": "a300492d0ef2cd729c35",
+      "path": "/容器/日志监控/k8s-exporter",
+      "title": "k8s-exporter",
+      "dir": "/容器/日志监控",
+      "file": "k8s-exporter.md"
+    },
+    {
+      "id": "d1de659bbac79a0db45e",
+      "path": "/容器/日志监控/k8s-fleet",
+      "title": "k8s-fleet",
+      "dir": "/容器/日志监控",
+      "file": "k8s-fleet.md"
+    },
+    {
+      "id": "8668aa71d8dd2cdf9281",
+      "path": "/容器/日志监控/k8s-fluent",
+      "title": "k8s-fluent",
+      "dir": "/容器/日志监控",
+      "file": "k8s-fluent.md"
+    },
+    {
+      "id": "a953015d9bc995257d0f",
+      "path": "/容器/日志监控/k8s-grafana",
+      "title": "k8s-grafana",
+      "dir": "/容器/日志监控",
+      "file": "k8s-grafana.md"
+    },
+    {
+      "id": "5edfd9cbe070b6739d0a",
+      "path": "/容器/日志监控/k8s-kafka",
+      "title": "k8s-kafka",
+      "dir": "/容器/日志监控",
+      "file": "k8s-kafka.md"
+    },
+    {
+      "id": "7abd73cc7502f51d0b16",
+      "path": "/容器/日志监控/k8s-kibana",
+      "title": "k8s-kibana",
+      "dir": "/容器/日志监控",
+      "file": "k8s-kibana.md"
+    },
+    {
+      "id": "dc86a36c0d71f3423170",
+      "path": "/容器/日志监控/k8s-loki",
+      "title": "k8s-loki",
+      "dir": "/容器/日志监控",
+      "file": "k8s-loki.md"
+    },
+    {
+      "id": "e1fb4e98e1011109c5d9",
+      "path": "/容器/日志监控/k8s-Nightingale",
+      "title": "k8s-Nightingale",
+      "dir": "/容器/日志监控",
+      "file": "k8s-Nightingale.md"
+    },
+    {
+      "id": "686a7748f5281ce2bd5b",
+      "path": "/容器/日志监控/k8s-prom",
+      "title": "k8s-prom",
+      "dir": "/容器/日志监控",
+      "file": "k8s-prom.md"
+    },
+    {
+      "id": "86eeef38574acc0d4a22",
+      "path": "/容器/日志监控/k8s-victoria-metric",
+      "title": "k8s-victoria-metric",
+      "dir": "/容器/日志监控",
+      "file": "k8s-victoria-metric.md"
+    },
+    {
+      "id": "a9f5dc73e39f4d4d38b9",
+      "path": "/容器/日志监控/sre-meeting",
+      "title": "sre-meeting",
+      "dir": "/容器/日志监控",
+      "file": "sre-meeting.md"
+    },
+    {
+      "id": "c299f046c249cc5267b6",
+      "path": "/容器/日志监控/zabbix",
+      "title": "zabbix",
+      "dir": "/容器/日志监控",
+      "file": "zabbix.md"
+    },
+    {
+      "id": "6025b423ffd1a15495aa",
+      "path": "/容器/容器回滚",
+      "title": "容器回滚",
+      "dir": "/容器",
+      "file": "容器回滚.md"
+    },
+    {
+      "id": "343456dd1940f3da24c6",
+      "path": "/容器/容器加速",
+      "title": "容器加速",
+      "dir": "/容器",
+      "file": "容器加速.md"
+    },
+    {
+      "id": "e899fefba78d5b73f76b",
+      "path": "/容器/容器镜像文件",
+      "title": "容器镜像文件",
+      "dir": "/容器",
+      "file": "容器镜像文件.md"
+    },
+    {
+      "id": "b8a0a800e5c206ebc58f",
+      "path": "/容器/数据湖仓/k8s-ArcCore ",
+      "title": "k8s-ArcCore ",
+      "dir": "/容器/数据湖仓",
+      "file": "k8s-ArcCore .md"
+    },
+    {
+      "id": "c0708269b1f11de9a0a6",
+      "path": "/容器/数据库/k8s-etcd",
+      "title": "k8s-etcd",
+      "dir": "/容器/数据库",
+      "file": "k8s-etcd.md"
+    },
+    {
+      "id": "cf3f9c1b946a3f8dca6f",
+      "path": "/容器/数据库/k8s-etcd备份",
+      "title": "k8s-etcd备份",
+      "dir": "/容器/数据库",
+      "file": "k8s-etcd备份.md"
+    },
+    {
+      "id": "6000f3454b50a21f9343",
+      "path": "/容器/数据库/k8s-mongoBD",
+      "title": "k8s-mongoBD",
+      "dir": "/容器/数据库",
+      "file": "k8s-mongoBD.md"
+    },
+    {
+      "id": "582fabdc16edc50ee8f9",
+      "path": "/容器/数据库/k8s-mysql",
+      "title": "k8s-mysql",
+      "dir": "/容器/数据库",
+      "file": "k8s-mysql.md"
+    },
+    {
+      "id": "823a614137910b715d0a",
+      "path": "/容器/数据库/k8s-pg",
+      "title": "k8s-pg",
+      "dir": "/容器/数据库",
+      "file": "k8s-pg.md"
+    },
+    {
+      "id": "cadf21cbbca5cc71b256",
+      "path": "/容器/数据库/k8s-redis",
+      "title": "k8s-redis",
+      "dir": "/容器/数据库",
+      "file": "k8s-redis.md"
+    },
+    {
+      "id": "bd7bf8671e742e3f69be",
+      "path": "/容器/数据库/k8s-Yearning SQL审核平台",
+      "title": "k8s-Yearning SQL审核平台",
+      "dir": "/容器/数据库",
+      "file": "k8s-Yearning SQL审核平台.md"
+    },
+    {
+      "id": "2ec0556a10eaac47c371",
+      "path": "/容器/网络及流量/k8s-流量",
+      "title": "k8s-流量",
+      "dir": "/容器/网络及流量",
+      "file": "k8s-流量.md"
+    },
+    {
+      "id": "f1703f4dbcab16eaf547",
+      "path": "/容器/网络及流量/k8s-证书",
+      "title": "k8s-证书",
+      "dir": "/容器/网络及流量",
+      "file": "k8s-证书.md"
+    },
+    {
+      "id": "3c919454782cea14e1c4",
+      "path": "/容器/网络及流量/k8s-apisix",
+      "title": "k8s-apisix",
+      "dir": "/容器/网络及流量",
+      "file": "k8s-apisix.md"
+    },
+    {
+      "id": "30d60140689d981243c3",
+      "path": "/容器/网络及流量/k8s-cert-manager",
+      "title": "k8s-cert-manager",
+      "dir": "/容器/网络及流量",
+      "file": "k8s-cert-manager.md"
+    },
+    {
+      "id": "ef9e46c65d723919097f",
+      "path": "/容器/网络及流量/k8s-dns",
+      "title": "k8s-dns",
+      "dir": "/容器/网络及流量",
+      "file": "k8s-dns.md"
+    },
+    {
+      "id": "881b2ca83ae87a996181",
+      "path": "/容器/网络及流量/k8s-ingress",
+      "title": "k8s-ingress",
+      "dir": "/容器/网络及流量",
+      "file": "k8s-ingress.md"
+    },
+    {
+      "id": "bde8482a6c997ddf714f",
+      "path": "/容器/网络及流量/k8s-ingress-nginx",
+      "title": "k8s-ingress-nginx",
+      "dir": "/容器/网络及流量",
+      "file": "k8s-ingress-nginx.md"
+    },
+    {
+      "id": "36b673e9514fc8cb736f",
+      "path": "/容器/网络及流量/k8s-istio",
+      "title": "k8s-istio",
+      "dir": "/容器/网络及流量",
+      "file": "k8s-istio.md"
+    },
+    {
+      "id": "e6f74193f10a87049b8a",
+      "path": "/容器/网络及流量/k8s-kong",
+      "title": "k8s-kong",
+      "dir": "/容器/网络及流量",
+      "file": "k8s-kong.md"
+    },
+    {
+      "id": "fff439874fe9214cb449",
+      "path": "/容器/网络及流量/k8s-lb",
+      "title": "k8s-lb",
+      "dir": "/容器/网络及流量",
+      "file": "k8s-lb.md"
+    },
+    {
+      "id": "486ffd7a7e82093fe3d5",
+      "path": "/容器/网络及流量/k8s-Linkerd+Submariner",
+      "title": "k8s-Linkerd+Submariner",
+      "dir": "/容器/网络及流量",
+      "file": "k8s-Linkerd+Submariner.md"
+    },
+    {
+      "id": "e0bcb75fe6882de81916",
+      "path": "/容器/网络及流量/k8s-metallb",
+      "title": "k8s-metallb",
+      "dir": "/容器/网络及流量",
+      "file": "k8s-metallb.md"
+    },
+    {
+      "id": "f907c5c71dc6983008cd",
+      "path": "/容器/网络及流量/k8s-Metrics Server",
+      "title": "k8s-Metrics Server",
+      "dir": "/容器/网络及流量",
+      "file": "k8s-Metrics Server.md"
+    },
+    {
+      "id": "f8ce33a70fbe8ac71313",
+      "path": "/容器/网络及流量/k8s-NAD",
+      "title": "k8s-NAD",
+      "dir": "/容器/网络及流量",
+      "file": "k8s-NAD.md"
+    },
+    {
+      "id": "81ee1310c57d227dba21",
+      "path": "/容器/网络及流量/k8s-node-dns",
+      "title": "k8s-node-dns",
+      "dir": "/容器/网络及流量",
+      "file": "k8s-node-dns.md"
+    },
+    {
+      "id": "ef95f4112c8299b881fd",
+      "path": "/容器/网络及流量/k8s-Traefik",
+      "title": "k8s-Traefik",
+      "dir": "/容器/网络及流量",
+      "file": "k8s-Traefik.md"
+    },
+    {
+      "id": "bcc50ae8b7374edda410",
+      "path": "/容器/网络及流量/k8s-vpn",
+      "title": "k8s-vpn",
+      "dir": "/容器/网络及流量",
+      "file": "k8s-vpn.md"
+    },
+    {
+      "id": "cc512689a3bd845dbf26",
+      "path": "/容器/网络及流量/k8s-webhook",
+      "title": "k8s-webhook",
+      "dir": "/容器/网络及流量",
+      "file": "k8s-webhook.md"
+    },
+    {
+      "id": "54d73df483c6c54a9766",
+      "path": "/容器/文档系统/k8s-outline",
+      "title": "k8s-outline",
+      "dir": "/容器/文档系统",
+      "file": "k8s-outline.md"
+    },
+    {
+      "id": "6203b0a97d8908f5cc2a",
+      "path": "/容器/文档系统/k8s-paperless",
+      "title": "k8s-paperless",
+      "dir": "/容器/文档系统",
+      "file": "k8s-paperless.md"
+    },
+    {
+      "id": "5ae766d088c21b63bdc9",
+      "path": "/容器/业务/k8s-高可用",
+      "title": "k8s-高可用",
+      "dir": "/容器/业务",
+      "file": "k8s-高可用.md"
+    },
+    {
+      "id": "16403849bb121dc3ad79",
+      "path": "/容器/用户权限/k8s-jumpserver",
+      "title": "k8s-jumpserver",
+      "dir": "/容器/用户权限",
+      "file": "k8s-jumpserver.md"
+    },
+    {
+      "id": "20be41aac981104f9673",
+      "path": "/容器/用户权限/k8s-RBAC",
+      "title": "k8s-RBAC",
+      "dir": "/容器/用户权限",
+      "file": "k8s-RBAC.md"
+    },
+    {
+      "id": "6b6c77c0323f150786a3",
+      "path": "/容器/用户权限/k8s-sa",
+      "title": "k8s-sa",
+      "dir": "/容器/用户权限",
+      "file": "k8s-sa.md"
+    },
+    {
+      "id": "bd8880dbaed39f8aab1d",
+      "path": "/容器/注册配置中心/k8s-apollo",
+      "title": "k8s-apollo",
+      "dir": "/容器/注册配置中心",
+      "file": "k8s-apollo.md"
+    },
+    {
+      "id": "1486150a765375c898f1",
+      "path": "/容器/注册配置中心/k8s-nacos",
+      "title": "k8s-nacos",
+      "dir": "/容器/注册配置中心",
+      "file": "k8s-nacos.md"
+    },
+    {
+      "id": "4f82acbd211cdabb5c6f",
+      "path": "/容器/CICD/发布特点",
+      "title": "发布特点",
+      "dir": "/容器/CICD",
+      "file": "发布特点.md"
+    },
+    {
+      "id": "c913b55156e4577a915c",
+      "path": "/容器/CICD/k8s-Argo-CD",
+      "title": "k8s-Argo-CD",
+      "dir": "/容器/CICD",
+      "file": "k8s-Argo-CD.md"
+    },
+    {
+      "id": "dfd0c9f191d450f9905b",
+      "path": "/容器/CICD/k8s-Argo-Rollouts",
+      "title": "k8s-Argo-Rollouts",
+      "dir": "/容器/CICD",
+      "file": "k8s-Argo-Rollouts.md"
+    },
+    {
+      "id": "4467d25baeebf984518a",
+      "path": "/容器/CICD/k8s-argo-rollouts-istio",
+      "title": "k8s-argo-rollouts-istio",
+      "dir": "/容器/CICD",
+      "file": "k8s-argo-rollouts-istio.md"
+    },
+    {
+      "id": "375e196548779ca2fdff",
+      "path": "/容器/CICD/k8s-Argo-workflows",
+      "title": "k8s-Argo-workflows",
+      "dir": "/容器/CICD",
+      "file": "k8s-Argo-workflows.md"
+    },
+    {
+      "id": "ab30937cfacb65ce503d",
+      "path": "/容器/CICD/k8s-cicd",
+      "title": "k8s-cicd",
+      "dir": "/容器/CICD",
+      "file": "k8s-cicd.md"
+    },
+    {
+      "id": "32888bee6c54438b3b09",
+      "path": "/容器/CICD/k8s-GITEA",
+      "title": "k8s-GITEA",
+      "dir": "/容器/CICD",
+      "file": "k8s-GITEA.md"
+    },
+    {
+      "id": "a57b6d6e232eeec5034d",
+      "path": "/容器/CICD/k8s-gitlab",
+      "title": "k8s-gitlab",
+      "dir": "/容器/CICD",
+      "file": "k8s-gitlab.md"
+    },
+    {
+      "id": "ab552596de1dd6cdfceb",
+      "path": "/容器/CICD/k8s-harbor",
+      "title": "k8s-harbor",
+      "dir": "/容器/CICD",
+      "file": "k8s-harbor.md"
+    },
+    {
+      "id": "e02adaac7f778b979b05",
+      "path": "/容器/CICD/k8s-jenkins",
+      "title": "k8s-jenkins",
+      "dir": "/容器/CICD",
+      "file": "k8s-jenkins.md"
+    },
+    {
+      "id": "e0f9e7f3201f311fa489",
+      "path": "/容器/CICD/k8s-pipeline",
+      "title": "k8s-pipeline",
+      "dir": "/容器/CICD",
+      "file": "k8s-pipeline.md"
+    },
+    {
+      "id": "65df5c5b91f396ae0b62",
+      "path": "/容器/CICD/k8s-serverless",
+      "title": "k8s-serverless",
+      "dir": "/容器/CICD",
+      "file": "k8s-serverless.md"
+    },
+    {
+      "id": "15776909c8b6c26089e9",
+      "path": "/容器/deploment和statusfulset区别",
+      "title": "deploment和statusfulset区别",
+      "dir": "/容器",
+      "file": "deploment和statusfulset区别.md"
+    },
+    {
+      "id": "4f42f128e3ac8a65e6a6",
+      "path": "/容器/docker-镜像加速",
+      "title": "docker-镜像加速",
+      "dir": "/容器",
+      "file": "docker-镜像加速.md"
+    },
+    {
+      "id": "175a2d607c94b3f3c6c9",
+      "path": "/容器/docker-node",
+      "title": "docker-node",
+      "dir": "/容器",
+      "file": "docker-node.md"
+    },
+    {
+      "id": "02e4ba08b7af5eb1ec2f",
+      "path": "/容器/docker-runlike",
+      "title": "docker-runlike",
+      "dir": "/容器",
+      "file": "docker-runlike.md"
+    },
+    {
+      "id": "3743a7bbf5ab849f5db9",
+      "path": "/容器/docker部署",
+      "title": "docker部署",
+      "dir": "/容器",
+      "file": "docker部署.md"
+    },
+    {
+      "id": "b685f03efd672c03e26d",
+      "path": "/容器/docker部署openvpn",
+      "title": "docker部署openvpn",
+      "dir": "/容器",
+      "file": "docker部署openvpn.md"
+    },
+    {
+      "id": "92460525a63cd8f17f08",
+      "path": "/容器/docker学习笔记",
+      "title": "docker学习笔记",
+      "dir": "/容器",
+      "file": "docker学习笔记.md"
+    },
+    {
+      "id": "c914aee1530fe7fe0352",
+      "path": "/容器/githup拉取国外镜像",
+      "title": "githup拉取国外镜像",
+      "dir": "/容器",
+      "file": "githup拉取国外镜像.md"
+    },
+    {
+      "id": "2fd315ad00b4d5736bdd",
+      "path": "/容器/helm-template",
+      "title": "helm-template",
+      "dir": "/容器",
+      "file": "helm-template.md"
+    },
+    {
+      "id": "0bda7a322ebd0c28b3b5",
+      "path": "/容器/helm安装",
+      "title": "helm安装",
+      "dir": "/容器",
+      "file": "helm安装.md"
+    },
+    {
+      "id": "cced4202ecb827a13972",
+      "path": "/容器/ingress-nginx限制ip",
+      "title": "ingress-nginx限制ip",
+      "dir": "/容器",
+      "file": "ingress-nginx限制ip.md"
+    },
+    {
+      "id": "1100a0d2c66144d66a51",
+      "path": "/容器/k8s-2048",
+      "title": "k8s-2048",
+      "dir": "/容器",
+      "file": "k8s-2048.md"
+    },
+    {
+      "id": "a34348c7e46432050b35",
+      "path": "/容器/k8s-部署",
+      "title": "k8s-部署",
+      "dir": "/容器",
+      "file": "k8s-部署.md"
+    },
+    {
+      "id": "a8aeb65bca8eeb109866",
+      "path": "/容器/k8s-禅道",
+      "title": "k8s-禅道",
+      "dir": "/容器",
+      "file": "k8s-禅道.md"
+    },
+    {
+      "id": "eb22214bf1d052da4769",
+      "path": "/容器/k8s-多主节点优化api",
+      "title": "k8s-多主节点优化api",
+      "dir": "/容器",
+      "file": "k8s-多主节点优化api.md"
+    },
+    {
+      "id": "0b275c7e5afcd9e2cfa8",
+      "path": "/容器/k8s-检测版本弃用",
+      "title": "k8s-检测版本弃用",
+      "dir": "/容器",
+      "file": "k8s-检测版本弃用.md"
+    },
+    {
+      "id": "3227a33699d9ad7b261f",
+      "path": "/容器/k8s-介绍",
+      "title": "k8s-介绍",
+      "dir": "/容器",
+      "file": "k8s-介绍.md"
+    },
+    {
+      "id": "84793fc72867b0f2abab",
+      "path": "/容器/k8s-容器调试",
+      "title": "k8s-容器调试",
+      "dir": "/容器",
+      "file": "k8s-容器调试.md"
+    },
+    {
+      "id": "9e5459c52a9ebf8079df",
+      "path": "/容器/k8s-学习",
+      "title": "k8s-学习",
+      "dir": "/容器",
+      "file": "k8s-学习.md"
+    },
+    {
+      "id": "d339926fee6c0dc384bb",
+      "path": "/容器/k8s-重启主节点",
+      "title": "k8s-重启主节点",
+      "dir": "/容器",
+      "file": "k8s-重启主节点.md"
+    },
+    {
+      "id": "e60f907a3b45ea41ff5f",
+      "path": "/容器/k8s-自动扩缩容",
+      "title": "k8s-自动扩缩容",
+      "dir": "/容器",
+      "file": "k8s-自动扩缩容.md"
+    },
+    {
+      "id": "fccafb1f11403f18f2d9",
+      "path": "/容器/k8s-configmap",
+      "title": "k8s-configmap",
+      "dir": "/容器",
+      "file": "k8s-configmap.md"
+    },
+    {
+      "id": "18741f753ddb6eec15dc",
+      "path": "/容器/k8s-CTR命令",
+      "title": "k8s-CTR命令",
+      "dir": "/容器",
+      "file": "k8s-CTR命令.md"
+    },
+    {
+      "id": "ff21b24294048c5ca30c",
+      "path": "/容器/k8s-deployment",
+      "title": "k8s-deployment",
+      "dir": "/容器",
+      "file": "k8s-deployment.md"
+    },
+    {
+      "id": "d8782ffd06442d9043e8",
+      "path": "/容器/k8s-dockerfile",
+      "title": "k8s-dockerfile",
+      "dir": "/容器",
+      "file": "k8s-dockerfile.md"
+    },
+    {
+      "id": "5aff33e9c2b97cb37b25",
+      "path": "/容器/k8s-edit-pod",
+      "title": "k8s-edit-pod",
+      "dir": "/容器",
+      "file": "k8s-edit-pod.md"
+    },
+    {
+      "id": "823162f6a1fe0fb44be1",
+      "path": "/容器/k8s-ferry",
+      "title": "k8s-ferry",
+      "dir": "/容器",
+      "file": "k8s-ferry.md"
+    },
+    {
+      "id": "16b2f08704af4ae2a201",
+      "path": "/容器/k8s-GPU-显卡",
+      "title": "k8s-GPU-显卡",
+      "dir": "/容器",
+      "file": "k8s-GPU-显卡.md"
+    },
+    {
+      "id": "12a343ee3ab0633e8dcd",
+      "path": "/容器/k8s-helm",
+      "title": "k8s-helm",
+      "dir": "/容器",
+      "file": "k8s-helm.md"
+    },
+    {
+      "id": "bfcf1c22ab641752fac9",
+      "path": "/容器/k8s-hpa",
+      "title": "k8s-hpa",
+      "dir": "/容器",
+      "file": "k8s-hpa.md"
+    },
+    {
+      "id": "3457899b4778f3f930af",
+      "path": "/容器/k8s-k8tz-Pod时区问题 ",
+      "title": "k8s-k8tz-Pod时区问题 ",
+      "dir": "/容器",
+      "file": "k8s-k8tz-Pod时区问题 .md"
+    },
+    {
+      "id": "c8bb67a68fe51b20f0aa",
+      "path": "/容器/k8s-kswapd0",
+      "title": "k8s-kswapd0",
+      "dir": "/容器",
+      "file": "k8s-kswapd0.md"
+    },
+    {
+      "id": "496e4c296458c7f803d2",
+      "path": "/容器/k8s-ktconnect-本地连接",
+      "title": "k8s-ktconnect-本地连接",
+      "dir": "/容器",
+      "file": "k8s-ktconnect-本地连接.md"
+    },
+    {
+      "id": "b6dcc4cb543e465ee8dc",
+      "path": "/容器/k8s-kubeaze",
+      "title": "k8s-kubeaze",
+      "dir": "/容器",
+      "file": "k8s-kubeaze.md"
+    },
+    {
+      "id": "8b7105238a5926f0fdb3",
+      "path": "/容器/k8s-n8n",
+      "title": "k8s-n8n",
+      "dir": "/容器",
+      "file": "k8s-n8n.md"
+    },
+    {
+      "id": "0fb3fb2eb1edfa378a38",
+      "path": "/容器/k8s-nerdctl",
+      "title": "k8s-nerdctl",
+      "dir": "/容器",
+      "file": "k8s-nerdctl.md"
+    },
+    {
+      "id": "5760ca55a42077fb06ab",
+      "path": "/容器/k8s-network-policy",
+      "title": "k8s-network-policy",
+      "dir": "/容器",
+      "file": "k8s-network-policy.md"
+    },
+    {
+      "id": "63547e7f7e226e17307f",
+      "path": "/容器/k8s-Nexus3",
+      "title": "k8s-Nexus3",
+      "dir": "/容器",
+      "file": "k8s-Nexus3.md"
+    },
+    {
+      "id": "28d3a08ad86eda5d6e50",
+      "path": "/容器/k8s-OpenKruise",
+      "title": "k8s-OpenKruise",
+      "dir": "/容器",
+      "file": "k8s-OpenKruise.md"
+    },
+    {
+      "id": "af7cb8504556cad37b6c",
+      "path": "/容器/k8s-permission-manager",
+      "title": "k8s-permission-manager",
+      "dir": "/容器",
+      "file": "k8s-permission-manager.md"
+    },
+    {
+      "id": "54a044c40fc6fbe3107d",
+      "path": "/容器/k8s-QoS",
+      "title": "k8s-QoS",
+      "dir": "/容器",
+      "file": "k8s-QoS.md"
+    },
+    {
+      "id": "e8d129b261aa34ff9bf3",
+      "path": "/容器/k8s-rocketchat",
+      "title": "k8s-rocketchat",
+      "dir": "/容器",
+      "file": "k8s-rocketchat.md"
+    },
+    {
+      "id": "37e12f81949c709a62bc",
+      "path": "/容器/k8s-statefulset",
+      "title": "k8s-statefulset",
+      "dir": "/容器",
+      "file": "k8s-statefulset.md"
+    },
+    {
+      "id": "dce835728561ec6ef8cb",
+      "path": "/容器/k8s-svc&pod&ing",
+      "title": "k8s-svc&pod&ing",
+      "dir": "/容器",
+      "file": "k8s-svc&pod&ing.md"
+    },
+    {
+      "id": "84dd27a9888766d8441f",
+      "path": "/容器/k8s-top-metrics-server",
+      "title": "k8s-top-metrics-server",
+      "dir": "/容器",
+      "file": "k8s-top-metrics-server.md"
+    },
+    {
+      "id": "3cfcb843f7ffd777f86d",
+      "path": "/容器/k8s-yaml",
+      "title": "k8s-yaml",
+      "dir": "/容器",
+      "file": "k8s-yaml.md"
+    },
+    {
+      "id": "f108549d10d9ce83a70a",
+      "path": "/容器/operator-crd/k8s-operater",
+      "title": "k8s-operater",
+      "dir": "/容器/operator-crd",
+      "file": "k8s-operater.md"
+    },
+    {
+      "id": "00c250d6e69791989f91",
+      "path": "/容器/operator-crd/k8s-operator-frp",
+      "title": "k8s-operator-frp",
+      "dir": "/容器/operator-crd",
+      "file": "k8s-operator-frp.md"
+    },
+    {
+      "id": "6c32b9871c888762082e",
+      "path": "/容器/operator-crd/k8s-operator-frp-sidecar",
+      "title": "k8s-operator-frp-sidecar",
+      "dir": "/容器/operator-crd",
+      "file": "k8s-operator-frp-sidecar.md"
+    },
+    {
+      "id": "77c77ccc6183f00f6dfd",
+      "path": "/容器/pod的优雅关闭",
+      "title": "pod的优雅关闭",
+      "dir": "/容器",
+      "file": "pod的优雅关闭.md"
+    },
+    {
+      "id": "9789e00c303cd07a6593",
+      "path": "/容器/troubleshooting/查询pod资源显示不一致",
+      "title": "查询pod资源显示不一致",
+      "dir": "/容器/troubleshooting",
+      "file": "查询pod资源显示不一致.md"
+    },
+    {
+      "id": "7ae333ae4b1881528610",
+      "path": "/容器/troubleshooting/容器安全之 Dockerfile 安全扫描 ",
+      "title": "容器安全之 Dockerfile 安全扫描 ",
+      "dir": "/容器/troubleshooting",
+      "file": "容器安全之 Dockerfile 安全扫描 .md"
+    },
+    {
+      "id": "ab0a41366eda3c47186b",
+      "path": "/容器/troubleshooting/docker-内存cpu限制",
+      "title": "docker-内存cpu限制",
+      "dir": "/容器/troubleshooting",
+      "file": "docker-内存cpu限制.md"
+    },
+    {
+      "id": "cfaf01afd145890d4969",
+      "path": "/容器/troubleshooting/docker-add-copy",
+      "title": "docker-add-copy",
+      "dir": "/容器/troubleshooting",
+      "file": "docker-add-copy.md"
+    },
+    {
+      "id": "a9700afbf02cc63931ec",
+      "path": "/容器/troubleshooting/docker-cp和mv性能差距",
+      "title": "docker-cp和mv性能差距",
+      "dir": "/容器/troubleshooting",
+      "file": "docker-cp和mv性能差距.md"
+    },
+    {
+      "id": "8409c91c6f01aac57eff",
+      "path": "/容器/troubleshooting/docker的2375端口怎么加密码,公网上开这个端口才两分钟就被种木马了",
+      "title": "docker的2375端口怎么加密码,公网上开这个端口才两分钟就被种木马了",
+      "dir": "/容器/troubleshooting",
+      "file": "docker的2375端口怎么加密码,公网上开这个端口才两分钟就被种木马了.md"
+    },
+    {
+      "id": "ef1b76cf7cd0e104ba6a",
+      "path": "/容器/troubleshooting/docker自动暴露端口绕过ufw",
+      "title": "docker自动暴露端口绕过ufw",
+      "dir": "/容器/troubleshooting",
+      "file": "docker自动暴露端口绕过ufw.md"
+    },
+    {
+      "id": "fdfa920066fc8f75a771",
+      "path": "/设计",
+      "title": "设计",
+      "dir": "/",
+      "file": "设计.md"
+    },
+    {
+      "id": "6bc920482d4923a318f1",
+      "path": "/数据库/安装脚本",
+      "title": "安装脚本",
+      "dir": "/数据库",
+      "file": "安装脚本.md"
+    },
+    {
+      "id": "3a3d6d5d1430307e367a",
+      "path": "/数据库/大数据/流式处理",
+      "title": "流式处理",
+      "dir": "/数据库/大数据",
+      "file": "流式处理.md"
+    },
+    {
+      "id": "25aa4b55f1be27463dba",
+      "path": "/数据库/大数据/数仓",
+      "title": "数仓",
+      "dir": "/数据库/大数据",
+      "file": "数仓.md"
+    },
+    {
+      "id": "289a1473e5cf475ddf00",
+      "path": "/数据库/麦聪数据库软件",
+      "title": "麦聪数据库软件",
+      "dir": "/数据库",
+      "file": "麦聪数据库软件.md"
+    },
+    {
+      "id": "04e4e962380b195142d2",
+      "path": "/数据库/数据库迁移",
+      "title": "数据库迁移",
+      "dir": "/数据库",
+      "file": "数据库迁移.md"
+    },
+    {
+      "id": "368ef87b750acb967c97",
+      "path": "/数据库/数据库区别",
+      "title": "数据库区别",
+      "dir": "/数据库",
+      "file": "数据库区别.md"
+    },
+    {
+      "id": "e17a528dc6e7feecfab3",
+      "path": "/数据库/样本数据库",
+      "title": "样本数据库",
+      "dir": "/数据库",
+      "file": "样本数据库.md"
+    },
+    {
+      "id": "1f4aa83a86979eda14e8",
+      "path": "/数据库/MongoDB",
+      "title": "MongoDB",
+      "dir": "/数据库",
+      "file": "MongoDB.md"
+    },
+    {
+      "id": "2ea38090581f48843525",
+      "path": "/数据库/mysql/aurora自建数据库同步 (copy)",
+      "title": "aurora自建数据库同步 (copy)",
+      "dir": "/数据库/mysql",
+      "file": "aurora自建数据库同步 (copy).md"
+    },
+    {
+      "id": "de7057eb8f27bdbdef63",
+      "path": "/数据库/mysql/mysql",
+      "title": "mysql",
+      "dir": "/数据库/mysql",
+      "file": "mysql.md"
+    },
+    {
+      "id": "d7aad5df05eabfe23515",
+      "path": "/数据库/mysql/MySQL学习",
+      "title": "MySQL学习",
+      "dir": "/数据库/mysql",
+      "file": "MySQL学习.md"
+    },
+    {
+      "id": "2c86395f8eaaa25ccae5",
+      "path": "/数据库/Navicat16激活",
+      "title": "Navicat16激活",
+      "dir": "/数据库",
+      "file": "Navicat16激活.md"
+    },
+    {
+      "id": "f4448cee8ca1a2d0c959",
+      "path": "/数据库/redis/redis-cli",
+      "title": "redis-cli",
+      "dir": "/数据库/redis",
+      "file": "redis-cli.md"
+    },
+    {
+      "id": "161045957726f18056eb",
+      "path": "/数据库/redis/Redis性能调优",
+      "title": "Redis性能调优",
+      "dir": "/数据库/redis",
+      "file": "Redis性能调优.md"
+    },
+    {
+      "id": "3631593d4e4da289546a",
+      "path": "/脱敏数据",
+      "title": "脱敏数据",
+      "dir": "/",
+      "file": "脱敏数据.md"
+    },
+    {
+      "id": "7a9dbee3b262b61e6f80",
+      "path": "/脱敏数据 (copy)",
+      "title": "脱敏数据 (copy)",
+      "dir": "/",
+      "file": "脱敏数据 (copy).md"
+    },
+    {
+      "id": "ac13b5789766ecd2ace2",
+      "path": "/网络/查看网络",
+      "title": "查看网络",
+      "dir": "/网络",
+      "file": "查看网络.md"
+    },
+    {
+      "id": "5add084837914d2048a6",
+      "path": "/网络/交换机/环路",
+      "title": "环路",
+      "dir": "/网络/交换机",
+      "file": "环路.md"
+    },
+    {
+      "id": "9cf8a57912ed3a207e4a",
+      "path": "/网络/交换机/交换机",
+      "title": "交换机",
+      "dir": "/网络/交换机",
+      "file": "交换机.md"
+    },
+    {
+      "id": "ccc2f59469d7b08f31c0",
+      "path": "/网络/交换机/交换机-BDF",
+      "title": "交换机-BDF",
+      "dir": "/网络/交换机",
+      "file": "交换机-BDF.md"
+    },
+    {
+      "id": "3b4741eb1608b89f0c74",
+      "path": "/网络/交换机/配置小型网络",
+      "title": "配置小型网络",
+      "dir": "/网络/交换机",
+      "file": "配置小型网络.md"
+    },
+    {
+      "id": "b838fda0dfb3c45b96a1",
+      "path": "/网络/交换机/STP",
+      "title": "STP",
+      "dir": "/网络/交换机",
+      "file": "STP.md"
+    },
+    {
+      "id": "e265622d65c9db00bfb9",
+      "path": "/网络/路由的类别",
+      "title": "路由的类别",
+      "dir": "/网络",
+      "file": "路由的类别.md"
+    },
+    {
+      "id": "723d6e0b4e5614f55404",
+      "path": "/网络/扫描ip",
+      "title": "扫描ip",
+      "dir": "/网络",
+      "file": "扫描ip.md"
+    },
+    {
+      "id": "d2246264e359bc3b9fea",
+      "path": "/网络/隧道/tailscale",
+      "title": "tailscale",
+      "dir": "/网络/隧道",
+      "file": "tailscale.md"
+    },
+    {
+      "id": "54ed0de0f32c340a48bb",
+      "path": "/网络/网络协议图",
+      "title": "网络协议图",
+      "dir": "/网络",
+      "file": "网络协议图.md"
+    },
+    {
+      "id": "114741681661e3e6e326",
+      "path": "/网络/虚拟机桥接",
+      "title": "虚拟机桥接",
+      "dir": "/网络",
+      "file": "虚拟机桥接.md"
+    },
+    {
+      "id": "aed5265f12b68121f8dd",
+      "path": "/网络/虚拟机设置代理",
+      "title": "虚拟机设置代理",
+      "dir": "/网络",
+      "file": "虚拟机设置代理.md"
+    },
+    {
+      "id": "4b7a24de3461d23545b2",
+      "path": "/网络/BGP学习",
+      "title": "BGP学习",
+      "dir": "/网络",
+      "file": "BGP学习.md"
+    },
+    {
+      "id": "e648e02b038ec8195448",
+      "path": "/网络/CloudFlare",
+      "title": "CloudFlare",
+      "dir": "/网络",
+      "file": "CloudFlare.md"
+    },
+    {
+      "id": "1e254ead98741acb7756",
+      "path": "/网络/CloudFlare-api",
+      "title": "CloudFlare-api",
+      "dir": "/网络",
+      "file": "CloudFlare-api.md"
+    },
+    {
+      "id": "039f1925ca3571e523b4",
+      "path": "/网络/curl获取外网ip",
+      "title": "curl获取外网ip",
+      "dir": "/网络",
+      "file": "curl获取外网ip.md"
+    },
+    {
+      "id": "1f4e02d5a050fa18a03a",
+      "path": "/网络/ddns",
+      "title": "ddns",
+      "dir": "/网络",
+      "file": "ddns.md"
+    },
+    {
+      "id": "419958897f14413252af",
+      "path": "/网络/DNS基本概念与常见问题分享",
+      "title": "DNS基本概念与常见问题分享",
+      "dir": "/网络",
+      "file": "DNS基本概念与常见问题分享.md"
+    },
+    {
+      "id": "20a8bf210ee9f6933727",
+      "path": "/网络/gre",
+      "title": "gre",
+      "dir": "/网络",
+      "file": "gre.md"
+    },
+    {
+      "id": "7299210d7ee81768781e",
+      "path": "/网络/HCIE论述-ISIS",
+      "title": "HCIE论述-ISIS",
+      "dir": "/网络",
+      "file": "HCIE论述-ISIS.md"
+    },
+    {
+      "id": "91a9c89286c153bc0a56",
+      "path": "/网络/iptables",
+      "title": "iptables",
+      "dir": "/网络",
+      "file": "iptables.md"
+    },
+    {
+      "id": "1893cd066f1d1d77efb3",
+      "path": "/网络/keepalive",
+      "title": "keepalive",
+      "dir": "/网络",
+      "file": "keepalive.md"
+    },
+    {
+      "id": "c46da72159bbae87ca64",
+      "path": "/网络/LVS和HA-proxy的区别",
+      "title": "LVS和HA-proxy的区别",
+      "dir": "/网络",
+      "file": "LVS和HA-proxy的区别.md"
+    },
+    {
+      "id": "e4a7dae7ff1c007c35f0",
+      "path": "/网络/LVS三种工作模式",
+      "title": "LVS三种工作模式",
+      "dir": "/网络",
+      "file": "LVS三种工作模式.md"
+    },
+    {
+      "id": "da3f34c45b6c5329c8aa",
+      "path": "/网络/NAT+DHCP",
+      "title": "NAT+DHCP",
+      "dir": "/网络",
+      "file": "NAT+DHCP.md"
+    },
+    {
+      "id": "bb142dbe050d2c56cafd",
+      "path": "/网络/pfSense",
+      "title": "pfSense",
+      "dir": "/网络",
+      "file": "pfSense.md"
+    },
+    {
+      "id": "ff39f66225e710e44a0c",
+      "path": "/网络/ssh反向隧道和nginx反向代理",
+      "title": "ssh反向隧道和nginx反向代理",
+      "dir": "/网络",
+      "file": "ssh反向隧道和nginx反向代理.md"
+    },
+    {
+      "id": "27969cc15e6181e7179d",
+      "path": "/网络/tcp和udp",
+      "title": "tcp和udp",
+      "dir": "/网络",
+      "file": "tcp和udp.md"
+    },
+    {
+      "id": "07bcff86cfd34eb0f2d1",
+      "path": "/网络/tcpdump",
+      "title": "tcpdump",
+      "dir": "/网络",
+      "file": "tcpdump.md"
+    },
+    {
+      "id": "0fedb0d3507e7b26c3e1",
+      "path": "/网络/windows开启路由转发",
+      "title": "windows开启路由转发",
+      "dir": "/网络",
+      "file": "windows开启路由转发.md"
+    },
+    {
+      "id": "f9f424fa06f149e280bb",
+      "path": "/网络/wireshark",
+      "title": "wireshark",
+      "dir": "/网络",
+      "file": "wireshark.md"
+    },
+    {
+      "id": "5198d7b4c22db5a72e21",
+      "path": "/虚拟化/烧制特定网卡esxi镜像",
+      "title": "烧制特定网卡esxi镜像",
+      "dir": "/虚拟化",
+      "file": "烧制特定网卡esxi镜像.md"
+    },
+    {
+      "id": "57a964304b89a08b75bd",
+      "path": "/虚拟化/ESXI安装",
+      "title": "ESXI安装",
+      "dir": "/虚拟化",
+      "file": "ESXI安装.md"
+    },
+    {
+      "id": "7a02c0c5f8e76c711ca6",
+      "path": "/虚拟化/hyper-v",
+      "title": "hyper-v",
+      "dir": "/虚拟化",
+      "file": "hyper-v.md"
+    },
+    {
+      "id": "efc9521d4f512f82dffc",
+      "path": "/虚拟化/kvm",
+      "title": "kvm",
+      "dir": "/虚拟化",
+      "file": "kvm.md"
+    },
+    {
+      "id": "7b6fa4e5f0f99523051a",
+      "path": "/虚拟化/pve-Proxmox",
+      "title": "pve-Proxmox",
+      "dir": "/虚拟化",
+      "file": "pve-Proxmox.md"
+    },
+    {
+      "id": "922e7bb4f564ae125a8b",
+      "path": "/虚拟化/vmware",
+      "title": "vmware",
+      "dir": "/虚拟化",
+      "file": "vmware.md"
+    },
+    {
+      "id": "b342fbfeafbde39e919d",
+      "path": "/中间件/如何使用Cobra开发自己的CLI ",
+      "title": "如何使用Cobra开发自己的CLI ",
+      "dir": "/中间件",
+      "file": "如何使用Cobra开发自己的CLI .md"
+    },
+    {
+      "id": "a1376768e7afd13ef573",
+      "path": "/中间件/邮箱",
+      "title": "邮箱",
+      "dir": "/中间件",
+      "file": "邮箱.md"
+    },
+    {
+      "id": "c23f8a2821154e60fcc3",
+      "path": "/中间件/直播、互动直播、实时音视频、旁路直播的区别以及联系",
+      "title": "直播、互动直播、实时音视频、旁路直播的区别以及联系",
+      "dir": "/中间件",
+      "file": "直播、互动直播、实时音视频、旁路直播的区别以及联系.md"
+    },
+    {
+      "id": "279ad79b8e356e6117aa",
+      "path": "/中间件/ansible",
+      "title": "ansible",
+      "dir": "/中间件",
+      "file": "ansible.md"
+    },
+    {
+      "id": "66628f39f3154d2461c4",
+      "path": "/中间件/APISIX 和 Kong对比",
+      "title": "APISIX 和 Kong对比",
+      "dir": "/中间件",
+      "file": "APISIX 和 Kong对比.md"
+    },
+    {
+      "id": "b217d5e3e7f86d323e97",
+      "path": "/中间件/APISIX网关",
+      "title": "APISIX网关",
+      "dir": "/中间件",
+      "file": "APISIX网关.md"
+    },
+    {
+      "id": "f49af81999b5dc93aefd",
+      "path": "/中间件/appflowy",
+      "title": "appflowy",
+      "dir": "/中间件",
+      "file": "appflowy.md"
+    },
+    {
+      "id": "cee5df16cab048e55618",
+      "path": "/中间件/CDN",
+      "title": "CDN",
+      "dir": "/中间件",
+      "file": "CDN.md"
+    },
+    {
+      "id": "bfe65b3081b72a717848",
+      "path": "/中间件/CentOS部署Nginx+ModSecurity（实现WAF效果）",
+      "title": "CentOS部署Nginx+ModSecurity（实现WAF效果）",
+      "dir": "/中间件",
+      "file": "CentOS部署Nginx+ModSecurity（实现WAF效果）.md"
+    },
+    {
+      "id": "454e6cb9b5312c8242ed",
+      "path": "/中间件/chat—Mattermost",
+      "title": "chat—Mattermost",
+      "dir": "/中间件",
+      "file": "chat—Mattermost.md"
+    },
+    {
+      "id": "8ef9cacbb92c26da4d55",
+      "path": "/中间件/chat—rocketchat",
+      "title": "chat—rocketchat",
+      "dir": "/中间件",
+      "file": "chat—rocketchat.md"
+    },
+    {
+      "id": "fb370318f9792c791640",
+      "path": "/中间件/Ckafka基础功能培训",
+      "title": "Ckafka基础功能培训",
+      "dir": "/中间件",
+      "file": "Ckafka基础功能培训.md"
+    },
+    {
+      "id": "cf878731810d449d06de",
+      "path": "/中间件/confluence部署",
+      "title": "confluence部署",
+      "dir": "/中间件",
+      "file": "confluence部署.md"
+    },
+    {
+      "id": "38946338ab585eff56d2",
+      "path": "/中间件/frp穿透",
+      "title": "frp穿透",
+      "dir": "/中间件",
+      "file": "frp穿透.md"
+    },
+    {
+      "id": "ec6c17f26bc72d26ac7c",
+      "path": "/中间件/FTP",
+      "title": "FTP",
+      "dir": "/中间件",
+      "file": "FTP.md"
+    },
+    {
+      "id": "e5f3a13920f4594f3f7c",
+      "path": "/中间件/homebox",
+      "title": "homebox",
+      "dir": "/中间件",
+      "file": "homebox.md"
+    },
+    {
+      "id": "7a122cb9cedb183f1f24",
+      "path": "/中间件/jenkins-CICD",
+      "title": "jenkins-CICD",
+      "dir": "/中间件",
+      "file": "jenkins-CICD.md"
+    },
+    {
+      "id": "bee143262bbc79d765a7",
+      "path": "/中间件/jfog",
+      "title": "jfog",
+      "dir": "/中间件",
+      "file": "jfog.md"
+    },
+    {
+      "id": "70948e38744b01bf4af3",
+      "path": "/中间件/jfrog-migration",
+      "title": "jfrog-migration",
+      "dir": "/中间件",
+      "file": "jfrog-migration.md"
+    },
+    {
+      "id": "6231c8acc727f768c60c",
+      "path": "/中间件/jira core",
+      "title": "jira core",
+      "dir": "/中间件",
+      "file": "jira core.md"
+    },
+    {
+      "id": "900781bd2ca6bc55e2e7",
+      "path": "/中间件/kafka",
+      "title": "kafka",
+      "dir": "/中间件",
+      "file": "kafka.md"
+    },
+    {
+      "id": "dabb60a55c09546e46ce",
+      "path": "/中间件/Kafka 简单介绍",
+      "title": "Kafka 简单介绍",
+      "dir": "/中间件",
+      "file": "Kafka 简单介绍.md"
+    },
+    {
+      "id": "e738538bce38941fec9d",
+      "path": "/中间件/Kafka与RabbitMQ区别",
+      "title": "Kafka与RabbitMQ区别",
+      "dir": "/中间件",
+      "file": "Kafka与RabbitMQ区别.md"
+    },
+    {
+      "id": "41a1d2c2569ac031f797",
+      "path": "/中间件/LDAP",
+      "title": "LDAP",
+      "dir": "/中间件",
+      "file": "LDAP.md"
+    },
+    {
+      "id": "f328c3377fe1fe5bb7e4",
+      "path": "/中间件/nacos部署",
+      "title": "nacos部署",
+      "dir": "/中间件",
+      "file": "nacos部署.md"
+    },
+    {
+      "id": "b7f728e8081b1087ae99",
+      "path": "/中间件/nacos使用",
+      "title": "nacos使用",
+      "dir": "/中间件",
+      "file": "nacos使用.md"
+    },
+    {
+      "id": "bf7b0673b97589fe4a9b",
+      "path": "/中间件/network/openwrt",
+      "title": "openwrt",
+      "dir": "/中间件/network",
+      "file": "openwrt.md"
+    },
+    {
+      "id": "af75cb7c28a69ffbfe3d",
+      "path": "/中间件/nginx优化",
+      "title": "nginx优化",
+      "dir": "/中间件",
+      "file": "nginx优化.md"
+    },
+    {
+      "id": "d663ad033182f73b85e7",
+      "path": "/中间件/nodejs",
+      "title": "nodejs",
+      "dir": "/中间件",
+      "file": "nodejs.md"
+    },
+    {
+      "id": "11b36e72eba547c1a48b",
+      "path": "/中间件/NPS",
+      "title": "NPS",
+      "dir": "/中间件",
+      "file": "NPS.md"
+    },
+    {
+      "id": "c3666c8a51e4c42f84e8",
+      "path": "/中间件/openwrt",
+      "title": "openwrt",
+      "dir": "/中间件",
+      "file": "openwrt.md"
+    },
+    {
+      "id": "a7f39123b9511059ea82",
+      "path": "/中间件/PHP",
+      "title": "PHP",
+      "dir": "/中间件",
+      "file": "PHP.md"
+    },
+    {
+      "id": "1b05d6b140c515ac08ef",
+      "path": "/中间件/postfix部署",
+      "title": "postfix部署",
+      "dir": "/中间件",
+      "file": "postfix部署.md"
+    },
+    {
+      "id": "11c1ab40b52660d442b6",
+      "path": "/中间件/postfix一键部署",
+      "title": "postfix一键部署",
+      "dir": "/中间件",
+      "file": "postfix一键部署.md"
+    },
+    {
+      "id": "da44e9edfb2aae3cf7cb",
+      "path": "/中间件/postman",
+      "title": "postman",
+      "dir": "/中间件",
+      "file": "postman.md"
+    },
+    {
+      "id": "f00945384a5ce3c67aa1",
+      "path": "/中间件/rabbitMQ部署",
+      "title": "rabbitMQ部署",
+      "dir": "/中间件",
+      "file": "rabbitMQ部署.md"
+    },
+    {
+      "id": "d0907381e452506bb122",
+      "path": "/中间件/RabbitMQ介绍及安装部署",
+      "title": "RabbitMQ介绍及安装部署",
+      "dir": "/中间件",
+      "file": "RabbitMQ介绍及安装部署.md"
+    },
+    {
+      "id": "e6e558df00eaf1b855e6",
+      "path": "/中间件/rabbitmq内存使用",
+      "title": "rabbitmq内存使用",
+      "dir": "/中间件",
+      "file": "rabbitmq内存使用.md"
+    },
+    {
+      "id": "fa6ca8763f8d19bbe6bc",
+      "path": "/中间件/saltstack",
+      "title": "saltstack",
+      "dir": "/中间件",
+      "file": "saltstack.md"
+    },
+    {
+      "id": "023b2f3bfb21049b9c1e",
+      "path": "/中间件/tools/drawnix",
+      "title": "drawnix",
+      "dir": "/中间件/tools",
+      "file": "drawnix.md"
+    },
+    {
+      "id": "68fc0609fd850ea32ac2",
+      "path": "/中间件/tools/paperless-ngx",
+      "title": "paperless-ngx",
+      "dir": "/中间件/tools",
+      "file": "paperless-ngx.md"
+    },
+    {
+      "id": "fa0f1ea453de556d4eaa",
+      "path": "/中间件/Trojan",
+      "title": "Trojan",
+      "dir": "/中间件",
+      "file": "Trojan.md"
+    },
+    {
+      "id": "539609869573111313af",
+      "path": "/中间件/v2ray部署",
+      "title": "v2ray部署",
+      "dir": "/中间件",
+      "file": "v2ray部署.md"
+    },
+    {
+      "id": "dfeee1b04e66b71bb701",
+      "path": "/中间件/wireguard",
+      "title": "wireguard",
+      "dir": "/中间件",
+      "file": "wireguard.md"
+    },
+    {
+      "id": "c56e693c11ada4b75a4e",
+      "path": "/自动化/腾讯云启动实例",
+      "title": "腾讯云启动实例",
+      "dir": "/自动化",
+      "file": "腾讯云启动实例.md"
+    },
+    {
+      "id": "eb61f98ceefd11b1ac6c",
+      "path": "/自动化/mcp",
+      "title": "mcp",
+      "dir": "/自动化",
+      "file": "mcp.md"
+    },
+    {
+      "id": "34363ddf81584dfbdfae",
+      "path": "/自动化/n8n/n8n-定时邮件",
+      "title": "n8n-定时邮件",
+      "dir": "/自动化/n8n",
+      "file": "n8n-定时邮件.md"
+    },
+    {
+      "id": "2661665df794074f4f7e",
+      "path": "/自动化/Terraform",
+      "title": "Terraform",
+      "dir": "/自动化",
+      "file": "Terraform.md"
+    },
+    {
+      "id": "ea60ebacf5b2c9bb7d98",
+      "path": "/aws/常见错误",
+      "title": "常见错误",
+      "dir": "/aws",
+      "file": "常见错误.md"
+    },
+    {
+      "id": "f54f4e81455017f88618",
+      "path": "/aws/创建 IAM 用户账户",
+      "title": "创建 IAM 用户账户",
+      "dir": "/aws",
+      "file": "创建 IAM 用户账户.md"
+    },
+    {
+      "id": "f7eb08af5901419ff3f1",
+      "path": "/aws/大数据/大数据产品",
+      "title": "大数据产品",
+      "dir": "/aws/大数据",
+      "file": "大数据产品.md"
+    },
+    {
+      "id": "ee7c103a469526475da1",
+      "path": "/aws/大数据/ambari巡检",
+      "title": "ambari巡检",
+      "dir": "/aws/大数据",
+      "file": "ambari巡检.md"
+    },
+    {
+      "id": "84d6d0f7e8429f66bff7",
+      "path": "/aws/海外域名证书",
+      "title": "海外域名证书",
+      "dir": "/aws",
+      "file": "海外域名证书.md"
+    },
+    {
+      "id": "08a82d01de1be67e11c2",
+      "path": "/aws/监控安全/部署cloudwatch agent",
+      "title": "部署cloudwatch agent",
+      "dir": "/aws/监控安全",
+      "file": "部署cloudwatch agent.md"
+    },
+    {
+      "id": "f0cd121e514ec9496916",
+      "path": "/aws/监控安全/监控端口脚本",
+      "title": "监控端口脚本",
+      "dir": "/aws/监控安全",
+      "file": "监控端口脚本.md"
+    },
+    {
+      "id": "151b368da979ef549147",
+      "path": "/aws/监控安全/Athena",
+      "title": "Athena",
+      "dir": "/aws/监控安全",
+      "file": "Athena.md"
+    },
+    {
+      "id": "05f563d702f897c91fa9",
+      "path": "/aws/监控安全/cloudtrail",
+      "title": "cloudtrail",
+      "dir": "/aws/监控安全",
+      "file": "cloudtrail.md"
+    },
+    {
+      "id": "4a2241fac157f49e2b15",
+      "path": "/aws/监控安全/cloudwatch监控",
+      "title": "cloudwatch监控",
+      "dir": "/aws/监控安全",
+      "file": "cloudwatch监控.md"
+    },
+    {
+      "id": "508f0825e6d868d648c5",
+      "path": "/aws/监控安全/SSM安装",
+      "title": "SSM安装",
+      "dir": "/aws/监控安全",
+      "file": "SSM安装.md"
+    },
+    {
+      "id": "16a92485c52f56b339de",
+      "path": "/aws/监控安全/waf",
+      "title": "waf",
+      "dir": "/aws/监控安全",
+      "file": "waf.md"
+    },
+    {
+      "id": "2ebe82b3748c14d70431",
+      "path": "/aws/数据库/数据库更新ssh访问证书",
+      "title": "数据库更新ssh访问证书",
+      "dir": "/aws/数据库",
+      "file": "数据库更新ssh访问证书.md"
+    },
+    {
+      "id": "23b4463776a6686cfdde",
+      "path": "/aws/数据库/aurora_heart表",
+      "title": "aurora_heart表",
+      "dir": "/aws/数据库",
+      "file": "aurora_heart表.md"
+    },
+    {
+      "id": "2c2a07ed026471680d6a",
+      "path": "/aws/数据库/aurora自建数据库同步",
+      "title": "aurora自建数据库同步",
+      "dir": "/aws/数据库",
+      "file": "aurora自建数据库同步.md"
+    },
+    {
+      "id": "a34d763aed2371991b7d",
+      "path": "/aws/消息队列/aws-sqs",
+      "title": "aws-sqs",
+      "dir": "/aws/消息队列",
+      "file": "aws-sqs.md"
+    },
+    {
+      "id": "4679faebb4c0ea65857b",
+      "path": "/aws/亚马逊热迁移Cloudendure原理",
+      "title": "亚马逊热迁移Cloudendure原理",
+      "dir": "/aws",
+      "file": "亚马逊热迁移Cloudendure原理.md"
+    },
+    {
+      "id": "e98890e2a4f794438c46",
+      "path": "/aws/域名/route53",
+      "title": "route53",
+      "dir": "/aws/域名",
+      "file": "route53.md"
+    },
+    {
+      "id": "09aea833226eab521514",
+      "path": "/aws/账单/aws-账单",
+      "title": "aws-账单",
+      "dir": "/aws/账单",
+      "file": "aws-账单.md"
+    },
+    {
+      "id": "677e6e2da6a357bc0c72",
+      "path": "/aws/acm知识点",
+      "title": "acm知识点",
+      "dir": "/aws",
+      "file": "acm知识点.md"
+    },
+    {
+      "id": "4f004f5777b7cd264222",
+      "path": "/aws/aspera",
+      "title": "aspera",
+      "dir": "/aws",
+      "file": "aspera.md"
+    },
+    {
+      "id": "2aee750c905a06157720",
+      "path": "/aws/AWS Amplify",
+      "title": "AWS Amplify",
+      "dir": "/aws",
+      "file": "AWS Amplify.md"
+    },
+    {
+      "id": "12c6e13300a2e23bfa72",
+      "path": "/aws/aws-cli",
+      "title": "aws-cli",
+      "dir": "/aws",
+      "file": "aws-cli.md"
+    },
+    {
+      "id": "5575ac39074e9893e1b6",
+      "path": "/aws/aws-connect",
+      "title": "aws-connect",
+      "dir": "/aws",
+      "file": "aws-connect.md"
+    },
+    {
+      "id": "a4d24643a2cd6840990c",
+      "path": "/aws/aws-SSO",
+      "title": "aws-SSO",
+      "dir": "/aws",
+      "file": "aws-SSO.md"
+    },
+    {
+      "id": "d0f4985784b2e6414603",
+      "path": "/aws/aws-workmail",
+      "title": "aws-workmail",
+      "dir": "/aws",
+      "file": "aws-workmail.md"
+    },
+    {
+      "id": "d17db3dda6730d0c9fb6",
+      "path": "/aws/aws服务限额",
+      "title": "aws服务限额",
+      "dir": "/aws",
+      "file": "aws服务限额.md"
+    },
+    {
+      "id": "bf350045cd0a6e905b8f",
+      "path": "/aws/cloud9-info",
+      "title": "cloud9-info",
+      "dir": "/aws",
+      "file": "cloud9-info.md"
+    },
+    {
+      "id": "8b448759b4529b336429",
+      "path": "/aws/cloudformation",
+      "title": "cloudformation",
+      "dir": "/aws",
+      "file": "cloudformation.md"
+    },
+    {
+      "id": "dd0bc8a5d2260544557f",
+      "path": "/aws/cloudfront",
+      "title": "cloudfront",
+      "dir": "/aws",
+      "file": "cloudfront.md"
+    },
+    {
+      "id": "ab2c14473996245c0b52",
+      "path": "/aws/EC2",
+      "title": "EC2",
+      "dir": "/aws",
+      "file": "EC2.md"
+    },
+    {
+      "id": "bfcee91deb3a943ff7d6",
+      "path": "/aws/EC2-启动关机",
+      "title": "EC2-启动关机",
+      "dir": "/aws",
+      "file": "EC2-启动关机.md"
+    },
+    {
+      "id": "485ccc5f160095f8e391",
+      "path": "/aws/ECS/aws-ecs",
+      "title": "aws-ecs",
+      "dir": "/aws/ECS",
+      "file": "aws-ecs.md"
+    },
+    {
+      "id": "6fad213cee4a4d8fada3",
+      "path": "/aws/eks/为 Amazon EKS 创建 kubeconfig",
+      "title": "为 Amazon EKS 创建 kubeconfig",
+      "dir": "/aws/eks",
+      "file": "为 Amazon EKS 创建 kubeconfig.md"
+    },
+    {
+      "id": "eb52ea03a4d389963c11",
+      "path": "/aws/eks/aws-docker安装",
+      "title": "aws-docker安装",
+      "dir": "/aws/eks",
+      "file": "aws-docker安装.md"
+    },
+    {
+      "id": "767d2e0e1aabf1e9dfb2",
+      "path": "/aws/eks/aws部署ECR",
+      "title": "aws部署ECR",
+      "dir": "/aws/eks",
+      "file": "aws部署ECR.md"
+    },
+    {
+      "id": "bbcb8c980b6f267511be",
+      "path": "/aws/eks/cluster-autoscaler时区",
+      "title": "cluster-autoscaler时区",
+      "dir": "/aws/eks",
+      "file": "cluster-autoscaler时区.md"
+    },
+    {
+      "id": "5acf476d1d1b3d7329b0",
+      "path": "/aws/eks/EKS Ingress和Service使用案例",
+      "title": "EKS Ingress和Service使用案例",
+      "dir": "/aws/eks",
+      "file": "EKS Ingress和Service使用案例.md"
+    },
+    {
+      "id": "8cb94a1dd1c6106c77c9",
+      "path": "/aws/eks/eks-安装集群",
+      "title": "eks-安装集群",
+      "dir": "/aws/eks",
+      "file": "eks-安装集群.md"
+    },
+    {
+      "id": "aadb0681c5f145eb95a3",
+      "path": "/aws/eks/eks-负载均衡控制器",
+      "title": "eks-负载均衡控制器",
+      "dir": "/aws/eks",
+      "file": "eks-负载均衡控制器.md"
+    },
+    {
+      "id": "ed830ba4dcfa961cb48d",
+      "path": "/aws/eks/eks-hpa弹性伸缩",
+      "title": "eks-hpa弹性伸缩",
+      "dir": "/aws/eks",
+      "file": "eks-hpa弹性伸缩.md"
+    },
+    {
+      "id": "1a4915cf1bf6162707ea",
+      "path": "/aws/eks/eks-karpenter",
+      "title": "eks-karpenter",
+      "dir": "/aws/eks",
+      "file": "eks-karpenter.md"
+    },
+    {
+      "id": "c4330ecf81d031f0c620",
+      "path": "/aws/eks/eks-web微服务",
+      "title": "eks-web微服务",
+      "dir": "/aws/eks",
+      "file": "eks-web微服务.md"
+    },
+    {
+      "id": "0a8c55a0eda2c2ec1f95",
+      "path": "/aws/eks/eks部署微服务",
+      "title": "eks部署微服务",
+      "dir": "/aws/eks",
+      "file": "eks部署微服务.md"
+    },
+    {
+      "id": "3ac05f7e9618ae3eb798",
+      "path": "/aws/eks/eks升级",
+      "title": "eks升级",
+      "dir": "/aws/eks",
+      "file": "eks升级.md"
+    },
+    {
+      "id": "50570bd57a92d3a82979",
+      "path": "/aws/eks/eksctl命令",
+      "title": "eksctl命令",
+      "dir": "/aws/eks",
+      "file": "eksctl命令.md"
+    },
+    {
+      "id": "887cf44795674910c92b",
+      "path": "/aws/eks/kubesphere",
+      "title": "kubesphere",
+      "dir": "/aws/eks",
+      "file": "kubesphere.md"
+    },
+    {
+      "id": "34ba05eead56de903454",
+      "path": "/aws/FSx/安装lustre",
+      "title": "安装lustre",
+      "dir": "/aws/FSx",
+      "file": "安装lustre.md"
+    },
+    {
+      "id": "a87287bfffe99fa4b3f0",
+      "path": "/aws/keepalive_for_aws",
+      "title": "keepalive_for_aws",
+      "dir": "/aws",
+      "file": "keepalive_for_aws.md"
+    },
+    {
+      "id": "de8a90a829a7b376c93e",
+      "path": "/aws/S3/S3-结合cloudfont",
+      "title": "S3-结合cloudfont",
+      "dir": "/aws/S3",
+      "file": "S3-结合cloudfont.md"
+    },
+    {
+      "id": "747f9fb0bb4c204a05e0",
+      "path": "/aws/S3/S3-跨域问题",
+      "title": "S3-跨域问题",
+      "dir": "/aws/S3",
+      "file": "S3-跨域问题.md"
+    },
+    {
+      "id": "271c03b5aa3699f98d64",
+      "path": "/aws/S3/S3-命令",
+      "title": "S3-命令",
+      "dir": "/aws/S3",
+      "file": "S3-命令.md"
+    },
+    {
+      "id": "8afdb33a8b31371a0ca9",
+      "path": "/aws/S3/S3-删除",
+      "title": "S3-删除",
+      "dir": "/aws/S3",
+      "file": "S3-删除.md"
+    },
+    {
+      "id": "628c35a442b859059e69",
+      "path": "/aws/S3/S3-上传文件夹",
+      "title": "S3-上传文件夹",
+      "dir": "/aws/S3",
+      "file": "S3-上传文件夹.md"
+    },
+    {
+      "id": "bbf67315ee1a8004dbd6",
+      "path": "/aws/S3/S3-授权",
+      "title": "S3-授权",
+      "dir": "/aws/S3",
+      "file": "S3-授权.md"
+    },
+    {
+      "id": "520ec43d0c0c5ba12704",
+      "path": "/aws/S3/S3-资源同步",
+      "title": "S3-资源同步",
+      "dir": "/aws/S3",
+      "file": "S3-资源同步.md"
+    },
+    {
+      "id": "e03599078e1fbc5861e2",
+      "path": "/aws/S3/S3-aws-cli连接",
+      "title": "S3-aws-cli连接",
+      "dir": "/aws/S3",
+      "file": "S3-aws-cli连接.md"
+    },
+    {
+      "id": "1e9ccac5d1ffa620a630",
+      "path": "/aws/SAP-backint",
+      "title": "SAP-backint",
+      "dir": "/aws",
+      "file": "SAP-backint.md"
+    },
+    {
+      "id": "bd300391b4ee7a88156e",
+      "path": "/aws/vpc/中转网关",
+      "title": "中转网关",
+      "dir": "/aws/vpc",
+      "file": "中转网关.md"
+    },
+    {
+      "id": "b593d0679bc0bab17560",
+      "path": "/aws/vpc/aws-vpn",
+      "title": "aws-vpn",
+      "dir": "/aws/vpc",
+      "file": "aws-vpn.md"
+    },
+    {
+      "id": "8a71e6cbf3c785bb05ba",
+      "path": "/githup/ChatGPT-Midjourney",
+      "title": "ChatGPT-Midjourney",
+      "dir": "/githup",
+      "file": "ChatGPT-Midjourney.md"
+    },
+    {
+      "id": "098bd56fed3a1d600a17",
+      "path": "/githup/homebox",
+      "title": "homebox",
+      "dir": "/githup",
+      "file": "homebox.md"
+    },
+    {
+      "id": "875f687a943d3d0a6996",
+      "path": "/githup/k8s-vgpu-scheduler",
+      "title": "k8s-vgpu-scheduler",
+      "dir": "/githup",
+      "file": "k8s-vgpu-scheduler.md"
+    },
+    {
+      "id": "c3f8e73f74469e14290e",
+      "path": "/linux/1822网卡安装",
+      "title": "1822网卡安装",
+      "dir": "/linux",
+      "file": "1822网卡安装.md"
+    },
+    {
+      "id": "bdda7e3471731d901f85",
+      "path": "/linux/更改文件所属",
+      "title": "更改文件所属",
+      "dir": "/linux",
+      "file": "更改文件所属.md"
+    },
+    {
+      "id": "d194d281aae2c8ca0230",
+      "path": "/linux/命令补全",
+      "title": "命令补全",
+      "dir": "/linux",
+      "file": "命令补全.md"
+    },
+    {
+      "id": "26a5d1e45bbe830329f0",
+      "path": "/linux/内核升级",
+      "title": "内核升级",
+      "dir": "/linux",
+      "file": "内核升级.md"
+    },
+    {
+      "id": "1883dd131cdb72fd093c",
+      "path": "/linux/如何使用Cobra开发自己的CLI ",
+      "title": "如何使用Cobra开发自己的CLI ",
+      "dir": "/linux",
+      "file": "如何使用Cobra开发自己的CLI .md"
+    },
+    {
+      "id": "3ee8057289719ee5d094",
+      "path": "/linux/新建服务-service服务",
+      "title": "新建服务-service服务",
+      "dir": "/linux",
+      "file": "新建服务-service服务.md"
+    },
+    {
+      "id": "7a2d3ec9093d7fa73462",
+      "path": "/linux/新建sudo用户",
+      "title": "新建sudo用户",
+      "dir": "/linux",
+      "file": "新建sudo用户.md"
+    },
+    {
+      "id": "b43e64332f6d6e451959",
+      "path": "/linux/域名查看",
+      "title": "域名查看",
+      "dir": "/linux",
+      "file": "域名查看.md"
+    },
+    {
+      "id": "6966fad9ca4cb603c4ff",
+      "path": "/linux/正则表达式",
+      "title": "正则表达式",
+      "dir": "/linux",
+      "file": "正则表达式.md"
+    },
+    {
+      "id": "bb491044569e4be347ba",
+      "path": "/linux/BMC",
+      "title": "BMC",
+      "dir": "/linux",
+      "file": "BMC.md"
+    },
+    {
+      "id": "03c828f886ccffc3df43",
+      "path": "/linux/centos",
+      "title": "centos",
+      "dir": "/linux",
+      "file": "centos.md"
+    },
+    {
+      "id": "cb95e13244586d089932",
+      "path": "/linux/cmake ",
+      "title": "cmake ",
+      "dir": "/linux",
+      "file": "cmake .md"
+    },
+    {
+      "id": "08f9d22d24a9dfd94d27",
+      "path": "/linux/crontab",
+      "title": "crontab",
+      "dir": "/linux",
+      "file": "crontab.md"
+    },
+    {
+      "id": "3dc11f0fb719a060daa3",
+      "path": "/linux/gcc升级",
+      "title": "gcc升级",
+      "dir": "/linux",
+      "file": "gcc升级.md"
+    },
+    {
+      "id": "4c27ac1cf261d4927c08",
+      "path": "/linux/Linux 用户态线程进程绑定CPU核",
+      "title": "Linux 用户态线程进程绑定CPU核",
+      "dir": "/linux",
+      "file": "Linux 用户态线程进程绑定CPU核.md"
+    },
+    {
+      "id": "798c9d0b820e3f5e3f9d",
+      "path": "/linux/linux-性能优化",
+      "title": "linux-性能优化",
+      "dir": "/linux",
+      "file": "linux-性能优化.md"
+    },
+    {
+      "id": "d24ded951de093387484",
+      "path": "/linux/Linux链接概念",
+      "title": "Linux链接概念",
+      "dir": "/linux",
+      "file": "Linux链接概念.md"
+    },
+    {
+      "id": "95a345fc169fa57f93a3",
+      "path": "/linux/linux命令和shell命令",
+      "title": "linux命令和shell命令",
+      "dir": "/linux",
+      "file": "linux命令和shell命令.md"
+    },
+    {
+      "id": "cd4b8850a1fcc6dc408d",
+      "path": "/linux/Linux数据实时同步（sersync+rsync）",
+      "title": "Linux数据实时同步（sersync+rsync）",
+      "dir": "/linux",
+      "file": "Linux数据实时同步（sersync+rsync）.md"
+    },
+    {
+      "id": "48208df9d60d12555175",
+      "path": "/linux/linux相关镜像站",
+      "title": "linux相关镜像站",
+      "dir": "/linux",
+      "file": "linux相关镜像站.md"
+    },
+    {
+      "id": "965870fb0ea2cfcbc4d7",
+      "path": "/linux/Linux中buffercache内存占用过高如何解决 _",
+      "title": "Linux中buffercache内存占用过高如何解决 _",
+      "dir": "/linux",
+      "file": "Linux中buffercache内存占用过高如何解决 _.md"
+    },
+    {
+      "id": "6e73549a677731f0e27d",
+      "path": "/linux/mobaxterm",
+      "title": "mobaxterm",
+      "dir": "/linux",
+      "file": "mobaxterm.md"
+    },
+    {
+      "id": "415fc0b1b1b1cb8463d2",
+      "path": "/linux/nginx配置",
+      "title": "nginx配置",
+      "dir": "/linux",
+      "file": "nginx配置.md"
+    },
+    {
+      "id": "9a55085fc0ce59a9a5c1",
+      "path": "/linux/os间传输文件",
+      "title": "os间传输文件",
+      "dir": "/linux",
+      "file": "os间传输文件.md"
+    },
+    {
+      "id": "626caf11f4a2b3e9ff4a",
+      "path": "/linux/OSS/oss命令",
+      "title": "oss命令",
+      "dir": "/linux/OSS",
+      "file": "oss命令.md"
+    },
+    {
+      "id": "b8bc4fe715196883a5f6",
+      "path": "/linux/OSS/oss上传文件夹",
+      "title": "oss上传文件夹",
+      "dir": "/linux/OSS",
+      "file": "oss上传文件夹.md"
+    },
+    {
+      "id": "2cef6abb9e3563a75d37",
+      "path": "/linux/pam概念",
+      "title": "pam概念",
+      "dir": "/linux",
+      "file": "pam概念.md"
+    },
+    {
+      "id": "faf016897e031ac3e4a4",
+      "path": "/linux/PXE",
+      "title": "PXE",
+      "dir": "/linux",
+      "file": "PXE.md"
+    },
+    {
+      "id": "5b048278bfa3bbfbcfcc",
+      "path": "/linux/raid0扩容",
+      "title": "raid0扩容",
+      "dir": "/linux",
+      "file": "raid0扩容.md"
+    },
+    {
+      "id": "ebcc6fbeeb8caa31be64",
+      "path": "/linux/sed命令",
+      "title": "sed命令",
+      "dir": "/linux",
+      "file": "sed命令.md"
+    },
+    {
+      "id": "dbd6803c5c49dedc9d04",
+      "path": "/linux/sh和source的区别",
+      "title": "sh和source的区别",
+      "dir": "/linux",
+      "file": "sh和source的区别.md"
+    },
+    {
+      "id": "18950a6d43efca4642ec",
+      "path": "/linux/shell多进程",
+      "title": "shell多进程",
+      "dir": "/linux",
+      "file": "shell多进程.md"
+    },
+    {
+      "id": "cc69dd9c48bf5b10ab69",
+      "path": "/linux/ssh登录很慢解决方法",
+      "title": "ssh登录很慢解决方法",
+      "dir": "/linux",
+      "file": "ssh登录很慢解决方法.md"
+    },
+    {
+      "id": "afc4f5479784a5113eb4",
+      "path": "/linux/ssh命令",
+      "title": "ssh命令",
+      "dir": "/linux",
+      "file": "ssh命令.md"
+    },
+    {
+      "id": "0e9671a1909597d5b836",
+      "path": "/linux/SVN和GIT",
+      "title": "SVN和GIT",
+      "dir": "/linux",
+      "file": "SVN和GIT.md"
+    },
+    {
+      "id": "08a187e792cff0939cb1",
+      "path": "/linux/top命令",
+      "title": "top命令",
+      "dir": "/linux",
+      "file": "top命令.md"
+    },
+    {
+      "id": "2e42d9a146de7e59e5ac",
+      "path": "/linux/ubuntu",
+      "title": "ubuntu",
+      "dir": "/linux",
+      "file": "ubuntu.md"
+    },
+    {
+      "id": "d8154c69fa85e408f839",
+      "path": "/linux/vi",
+      "title": "vi",
+      "dir": "/linux",
+      "file": "vi.md"
+    },
+    {
+      "id": "c30e67ee8ed7790a6746",
+      "path": "/linux/VPN",
+      "title": "VPN",
+      "dir": "/linux",
+      "file": "VPN.md"
+    },
+    {
+      "id": "5a635872fed6db111042",
+      "path": "/linux/xsync脚本使用",
+      "title": "xsync脚本使用",
+      "dir": "/linux",
+      "file": "xsync脚本使用.md"
+    },
+    {
+      "id": "1e3386fe563dc90d1744",
+      "path": "/linux/yq&jq",
+      "title": "yq&jq",
+      "dir": "/linux",
+      "file": "yq&jq.md"
+    },
+    {
+      "id": "5de44d7eba538f6a89dd",
+      "path": "/sre-待整理",
+      "title": "sre-待整理",
+      "dir": "/",
+      "file": "sre-待整理.md"
+    },
+    {
+      "id": "ff7d38fd5a335f8e54c7",
+      "path": "/sre/部署流程",
+      "title": "部署流程",
+      "dir": "/sre",
+      "file": "部署流程.md"
+    },
+    {
+      "id": "9feaac25ac353f20c9ca",
+      "path": "/sre/操作/web3-备份恢复数据",
+      "title": "web3-备份恢复数据",
+      "dir": "/sre/操作",
+      "file": "web3-备份恢复数据.md"
+    },
+    {
+      "id": "a3f1a347fc2621ea5bbc",
+      "path": "/sre/操作/web3-test-清空数据操作",
+      "title": "web3-test-清空数据操作",
+      "dir": "/sre/操作",
+      "file": "web3-test-清空数据操作.md"
+    },
+    {
+      "id": "4933d20e6ce2e4080f17",
+      "path": "/sre/pp/集群/pp-分用户kubectl",
+      "title": "pp-分用户kubectl",
+      "dir": "/sre/pp/集群",
+      "file": "pp-分用户kubectl.md"
+    },
+    {
+      "id": "fff847a7989b166c855b",
+      "path": "/sre/pp/集群/pp-集群-端口",
+      "title": "pp-集群-端口",
+      "dir": "/sre/pp/集群",
+      "file": "pp-集群-端口.md"
+    },
+    {
+      "id": "4f69f76add4da43a626c",
+      "path": "/sre/pp/集群/pp-集群日志",
+      "title": "pp-集群日志",
+      "dir": "/sre/pp/集群",
+      "file": "pp-集群日志.md"
+    },
+    {
+      "id": "d9d3c0f384e8a661e4d1",
+      "path": "/sre/pp/集群/pp-镜像",
+      "title": "pp-镜像",
+      "dir": "/sre/pp/集群",
+      "file": "pp-镜像.md"
+    },
+    {
+      "id": "f5af5ce18dd674964a72",
+      "path": "/sre/pp/集群/pp-空间迁移",
+      "title": "pp-空间迁移",
+      "dir": "/sre/pp/集群",
+      "file": "pp-空间迁移.md"
+    },
+    {
+      "id": "1fcd410b8c7f5609f16a",
+      "path": "/sre/pp/集群/pp-云平台权限导出",
+      "title": "pp-云平台权限导出",
+      "dir": "/sre/pp/集群",
+      "file": "pp-云平台权限导出.md"
+    },
+    {
+      "id": "eadf5bc27fff26ce83cb",
+      "path": "/sre/pp/集群/pp-ack",
+      "title": "pp-ack",
+      "dir": "/sre/pp/集群",
+      "file": "pp-ack.md"
+    },
+    {
+      "id": "4b79123c2edd139ca6fb",
+      "path": "/sre/pp/集群/pp-cm账号密码",
+      "title": "pp-cm账号密码",
+      "dir": "/sre/pp/集群",
+      "file": "pp-cm账号密码.md"
+    },
+    {
+      "id": "94729adf8e7b3a589352",
+      "path": "/sre/pp/集群/pp-collect",
+      "title": "pp-collect",
+      "dir": "/sre/pp/集群",
+      "file": "pp-collect.md"
+    },
+    {
+      "id": "c1b4af8977c53d812936",
+      "path": "/sre/pp/集群/pp-ingress",
+      "title": "pp-ingress",
+      "dir": "/sre/pp/集群",
+      "file": "pp-ingress.md"
+    },
+    {
+      "id": "50bcbe96fcc205a0b2e8",
+      "path": "/sre/pp/集群/pp-nsq",
+      "title": "pp-nsq",
+      "dir": "/sre/pp/集群",
+      "file": "pp-nsq.md"
+    },
+    {
+      "id": "4cc43d9b20500347aa88",
+      "path": "/sre/pp/集群/pp-xops",
+      "title": "pp-xops",
+      "dir": "/sre/pp/集群",
+      "file": "pp-xops.md"
+    },
+    {
+      "id": "41bc5d91f5f321288854",
+      "path": "/sre/pp/监控/pp-监控",
+      "title": "pp-监控",
+      "dir": "/sre/pp/监控",
+      "file": "pp-监控.md"
+    },
+    {
+      "id": "b750919892988637daf7",
+      "path": "/sre/pp/监控/pp-日志",
+      "title": "pp-日志",
+      "dir": "/sre/pp/监控",
+      "file": "pp-日志.md"
+    },
+    {
+      "id": "dddb37d239c4ca12487d",
+      "path": "/sre/pp/监控/pp-账单",
+      "title": "pp-账单",
+      "dir": "/sre/pp/监控",
+      "file": "pp-账单.md"
+    },
+    {
+      "id": "5376ec9f3e6d7795647b",
+      "path": "/sre/pp/监控/pp-alert-gw",
+      "title": "pp-alert-gw",
+      "dir": "/sre/pp/监控",
+      "file": "pp-alert-gw.md"
+    },
+    {
+      "id": "e1524f417294dc5e2cc5",
+      "path": "/sre/pp/监控/pp-atop",
+      "title": "pp-atop",
+      "dir": "/sre/pp/监控",
+      "file": "pp-atop.md"
+    },
+    {
+      "id": "76ab1bf03d3af60bdf3b",
+      "path": "/sre/pp/监控/pp-elk",
+      "title": "pp-elk",
+      "dir": "/sre/pp/监控",
+      "file": "pp-elk.md"
+    },
+    {
+      "id": "96099bee22d19f96b987",
+      "path": "/sre/pp/监控/pp-fluent",
+      "title": "pp-fluent",
+      "dir": "/sre/pp/监控",
+      "file": "pp-fluent.md"
+    },
+    {
+      "id": "4a10907e45d6cbe7b87d",
+      "path": "/sre/pp/监控/pp-nsq排查",
+      "title": "pp-nsq排查",
+      "dir": "/sre/pp/监控",
+      "file": "pp-nsq排查.md"
+    },
+    {
+      "id": "529d4dc4ab6676122799",
+      "path": "/sre/pp/平台业务/pp-多域名",
+      "title": "pp-多域名",
+      "dir": "/sre/pp/平台业务",
+      "file": "pp-多域名.md"
+    },
+    {
+      "id": "a86281b2e5c13ce2d0ee",
+      "path": "/sre/pp/平台业务/pp-平台运维操作指引",
+      "title": "pp-平台运维操作指引",
+      "dir": "/sre/pp/平台业务",
+      "file": "pp-平台运维操作指引.md"
+    },
+    {
+      "id": "f386c18b73eba9927d6e",
+      "path": "/sre/pp/平台业务/pp-前端采集资源",
+      "title": "pp-前端采集资源",
+      "dir": "/sre/pp/平台业务",
+      "file": "pp-前端采集资源.md"
+    },
+    {
+      "id": "32f63edec48d4df03d0b",
+      "path": "/sre/pp/平台业务/pp-日志筛查",
+      "title": "pp-日志筛查",
+      "dir": "/sre/pp/平台业务",
+      "file": "pp-日志筛查.md"
+    },
+    {
+      "id": "03974d34fe89edc35321",
+      "path": "/sre/pp/平台业务/pp-速度优化",
+      "title": "pp-速度优化",
+      "dir": "/sre/pp/平台业务",
+      "file": "pp-速度优化.md"
+    },
+    {
+      "id": "76220185d2188aea1725",
+      "path": "/sre/pp/平台业务/pp-验证码",
+      "title": "pp-验证码",
+      "dir": "/sre/pp/平台业务",
+      "file": "pp-验证码.md"
+    },
+    {
+      "id": "3c73ba5c2bf74a347840",
+      "path": "/sre/pp/平台业务/pp-oceanbase",
+      "title": "pp-oceanbase",
+      "dir": "/sre/pp/平台业务",
+      "file": "pp-oceanbase.md"
+    },
+    {
+      "id": "88055a1d4be9ca6c37cb",
+      "path": "/sre/pp/迁移/pp-clb验证",
+      "title": "pp-clb验证",
+      "dir": "/sre/pp/迁移",
+      "file": "pp-clb验证.md"
+    },
+    {
+      "id": "5ca145c38b5978f102da",
+      "path": "/sre/pp/迁移/pp-dts迁移",
+      "title": "pp-dts迁移",
+      "dir": "/sre/pp/迁移",
+      "file": "pp-dts迁移.md"
+    },
+    {
+      "id": "e828ddad522e1fb3ff47",
+      "path": "/sre/pp/数据库/pp-更改表",
+      "title": "pp-更改表",
+      "dir": "/sre/pp/数据库",
+      "file": "pp-更改表.md"
+    },
+    {
+      "id": "55b430d2a42dc359f967",
+      "path": "/sre/pp/数据库/tc-mysql",
+      "title": "tc-mysql",
+      "dir": "/sre/pp/数据库",
+      "file": "tc-mysql.md"
+    },
+    {
+      "id": "fda89f8ffbfc4dc90824",
+      "path": "/sre/pp/数据库/tc-redis",
+      "title": "tc-redis",
+      "dir": "/sre/pp/数据库",
+      "file": "tc-redis.md"
+    },
+    {
+      "id": "c809a89f196501ea1753",
+      "path": "/sre/pp/学习/pp-学习任务",
+      "title": "pp-学习任务",
+      "dir": "/sre/pp/学习",
+      "file": "pp-学习任务.md"
+    },
+    {
+      "id": "040a07b40b6867b5407b",
+      "path": "/sre/pp/学习/pp-ai",
+      "title": "pp-ai",
+      "dir": "/sre/pp/学习",
+      "file": "pp-ai.md"
+    },
+    {
+      "id": "796ebe13c665694608d4",
+      "path": "/sre/pp/巡检/pp-清理",
+      "title": "pp-清理",
+      "dir": "/sre/pp/巡检",
+      "file": "pp-清理.md"
+    },
+    {
+      "id": "4748d55fc3abfc57ae77",
+      "path": "/sre/pp/巡检/pp-系统脚本",
+      "title": "pp-系统脚本",
+      "dir": "/sre/pp/巡检",
+      "file": "pp-系统脚本.md"
+    },
+    {
+      "id": "912008f092e840652a28",
+      "path": "/sre/pp/中台业务/pp-采集",
+      "title": "pp-采集",
+      "dir": "/sre/pp/中台业务",
+      "file": "pp-采集.md"
+    },
+    {
+      "id": "400ff7236de7c1c6ce88",
+      "path": "/sre/pp/中台业务/pp-归档",
+      "title": "pp-归档",
+      "dir": "/sre/pp/中台业务",
+      "file": "pp-归档.md"
+    },
+    {
+      "id": "64e4bac9281ee49a39e0",
+      "path": "/sre/pp/中台业务/pp-截图积压",
+      "title": "pp-截图积压",
+      "dir": "/sre/pp/中台业务",
+      "file": "pp-截图积压.md"
+    },
+    {
+      "id": "5bf4468913ad23ce785c",
+      "path": "/sre/pp/中台业务/pp-中台-脚本",
+      "title": "pp-中台-脚本",
+      "dir": "/sre/pp/中台业务",
+      "file": "pp-中台-脚本.md"
+    },
+    {
+      "id": "1db2b23a2e2c160e51fd",
+      "path": "/sre/pp/中台业务/pp-重采",
+      "title": "pp-重采",
+      "dir": "/sre/pp/中台业务",
+      "file": "pp-重采.md"
+    },
+    {
+      "id": "118df094a51971455238",
+      "path": "/sre/pp/中台业务/pp-转码",
+      "title": "pp-转码",
+      "dir": "/sre/pp/中台业务",
+      "file": "pp-转码.md"
+    },
+    {
+      "id": "776a039f13ea448d57a5",
+      "path": "/sre/pp/中台业务/pp-转码-node",
+      "title": "pp-转码-node",
+      "dir": "/sre/pp/中台业务",
+      "file": "pp-转码-node.md"
+    },
+    {
+      "id": "fc12a5d6c9daeeb00685",
+      "path": "/sre/pp/中台业务/pp-fast-start",
+      "title": "pp-fast-start",
+      "dir": "/sre/pp/中台业务",
+      "file": "pp-fast-start.md"
+    },
+    {
+      "id": "a9dc9c94a2e413cd914f",
+      "path": "/sre/pp/中台业务/pp-http-down部署",
+      "title": "pp-http-down部署",
+      "dir": "/sre/pp/中台业务",
+      "file": "pp-http-down部署.md"
+    },
+    {
+      "id": "5889b32ea541d7898430",
+      "path": "/sre/pp/中台业务/pp-http-down更新",
+      "title": "pp-http-down更新",
+      "dir": "/sre/pp/中台业务",
+      "file": "pp-http-down更新.md"
+    },
+    {
+      "id": "8007f46d1cf48e3d8082",
+      "path": "/sre/pp/中台业务/pp-httpdown-机器",
+      "title": "pp-httpdown-机器",
+      "dir": "/sre/pp/中台业务",
+      "file": "pp-httpdown-机器.md"
+    },
+    {
+      "id": "678de18da059a11532a3",
+      "path": "/sre/pp/中台业务/pp-speedtest",
+      "title": "pp-speedtest",
+      "dir": "/sre/pp/中台业务",
+      "file": "pp-speedtest.md"
+    },
+    {
+      "id": "7bf8cb94c21f02788f21",
+      "path": "/sre/pp/bak/pp-更新ip",
+      "title": "pp-更新ip",
+      "dir": "/sre/pp/bak",
+      "file": "pp-更新ip.md"
+    },
+    {
+      "id": "e589de0516a8d51a98e3",
+      "path": "/sre/pp/bak/pp-火山-httpdown",
+      "title": "pp-火山-httpdown",
+      "dir": "/sre/pp/bak",
+      "file": "pp-火山-httpdown.md"
+    },
+    {
+      "id": "486918418bf39d3ff033",
+      "path": "/sre/pp/bak/pp-ingress-nginx",
+      "title": "pp-ingress-nginx",
+      "dir": "/sre/pp/bak",
+      "file": "pp-ingress-nginx.md"
+    },
+    {
+      "id": "f048c01d034d35d6dc54",
+      "path": "/sre/pp/bak/pp-prom",
+      "title": "pp-prom",
+      "dir": "/sre/pp/bak",
+      "file": "pp-prom.md"
+    },
+    {
+      "id": "1b311aeefc9089ec1ea4",
+      "path": "/sre/pp/pp-测试nfs读写",
+      "title": "pp-测试nfs读写",
+      "dir": "/sre/pp",
+      "file": "pp-测试nfs读写.md"
+    },
+    {
+      "id": "ecde6585e19087d963e1",
+      "path": "/sre/pp/pp-单独用户",
+      "title": "pp-单独用户",
+      "dir": "/sre/pp",
+      "file": "pp-单独用户.md"
+    },
+    {
+      "id": "54c3ae624a0672ed1ff3",
+      "path": "/sre/pp/pp-更新证书",
+      "title": "pp-更新证书",
+      "dir": "/sre/pp",
+      "file": "pp-更新证书.md"
+    },
+    {
+      "id": "df739f75b1dbb3933efb",
+      "path": "/sre/pp/pp-敏捷云",
+      "title": "pp-敏捷云",
+      "dir": "/sre/pp",
+      "file": "pp-敏捷云.md"
+    },
+    {
+      "id": "49a71c20aa444ed9b1b6",
+      "path": "/sre/pp/pp-迁移",
+      "title": "pp-迁移",
+      "dir": "/sre/pp",
+      "file": "pp-迁移.md"
+    },
+    {
+      "id": "fd78ddff5fa338e0a68b",
+      "path": "/sre/pp/pp-小时带宽包调度",
+      "title": "pp-小时带宽包调度",
+      "dir": "/sre/pp",
+      "file": "pp-小时带宽包调度.md"
+    },
+    {
+      "id": "044e82af716cc783692d",
+      "path": "/sre/pp/pp-邮件",
+      "title": "pp-邮件",
+      "dir": "/sre/pp",
+      "file": "pp-邮件.md"
+    },
+    {
+      "id": "d2425b9b528fe1607b65",
+      "path": "/sre/pp/pp-云账号接收人设置",
+      "title": "pp-云账号接收人设置",
+      "dir": "/sre/pp",
+      "file": "pp-云账号接收人设置.md"
+    },
+    {
+      "id": "e519b3d149b99e24af06",
+      "path": "/sre/pp/pp-cdn",
+      "title": "pp-cdn",
+      "dir": "/sre/pp",
+      "file": "pp-cdn.md"
+    },
+    {
+      "id": "adfced41bcaf09afa761",
+      "path": "/sre/pp/pp-emr",
+      "title": "pp-emr",
+      "dir": "/sre/pp",
+      "file": "pp-emr.md"
+    },
+    {
+      "id": "84e7e7977ee47002cf61",
+      "path": "/sre/pp/pp-ftp",
+      "title": "pp-ftp",
+      "dir": "/sre/pp",
+      "file": "pp-ftp.md"
+    },
+    {
+      "id": "05d72d99c9e28d5daceb",
+      "path": "/sre/pp/pp-nfs",
+      "title": "pp-nfs",
+      "dir": "/sre/pp",
+      "file": "pp-nfs.md"
+    },
+    {
+      "id": "b84086f2ba151cdea203",
+      "path": "/sre/pp/pp-salt",
+      "title": "pp-salt",
+      "dir": "/sre/pp",
+      "file": "pp-salt.md"
+    },
+    {
+      "id": "04b4117e8f6ca875cbb2",
+      "path": "/sre/pp/pp-whatslink",
+      "title": "pp-whatslink",
+      "dir": "/sre/pp",
+      "file": "pp-whatslink.md"
+    },
+    {
+      "id": "6fc1128a90b273809fb5",
+      "path": "/sre/pp/redis/new",
+      "title": "new",
+      "dir": "/sre/pp/redis",
+      "file": "new.md"
+    },
+    {
+      "id": "0c3bfc12fb45785b57db",
+      "path": "/sre/pp/vps/pp-荷兰",
+      "title": "pp-荷兰",
+      "dir": "/sre/pp/vps",
+      "file": "pp-荷兰.md"
+    },
+    {
+      "id": "4782f89ae257b574425e",
+      "path": "/sre/pp/vps/pp-vps续费",
+      "title": "pp-vps续费",
+      "dir": "/sre/pp/vps",
+      "file": "pp-vps续费.md"
+    },
+    {
+      "id": "58252e08613acaef06ff",
+      "path": "/sre/saas/排查/域名",
+      "title": "域名",
+      "dir": "/sre/saas/排查",
+      "file": "域名.md"
+    },
+    {
+      "id": "f97a1ffee64a87663909",
+      "path": "/sre/saas/jenkins/saas-dev",
+      "title": "saas-dev",
+      "dir": "/sre/saas/jenkins",
+      "file": "saas-dev.md"
+    },
+    {
+      "id": "9de427af78ec3bb754d1",
+      "path": "/sre/sre-仓库说明",
+      "title": "sre-仓库说明",
+      "dir": "/sre",
+      "file": "sre-仓库说明.md"
+    },
+    {
+      "id": "974a4cc8b3b2cee2f35a",
+      "path": "/sre/sre-测试网页速度",
+      "title": "sre-测试网页速度",
+      "dir": "/sre",
+      "file": "sre-测试网页速度.md"
+    },
+    {
+      "id": "b953a02972dd4651e044",
+      "path": "/sre/sre-更换证书",
+      "title": "sre-更换证书",
+      "dir": "/sre",
+      "file": "sre-更换证书.md"
+    },
+    {
+      "id": "0f3d06d5db15da905252",
+      "path": "/sre/sre-熔断和降级",
+      "title": "sre-熔断和降级",
+      "dir": "/sre",
+      "file": "sre-熔断和降级.md"
+    },
+    {
+      "id": "bc47cd2ad58536d47490",
+      "path": "/sre/sre-设计思想",
+      "title": "sre-设计思想",
+      "dir": "/sre",
+      "file": "sre-设计思想.md"
+    },
+    {
+      "id": "4bc2e752fa51d95c04ed",
+      "path": "/sre/sre-硬盘被占用",
+      "title": "sre-硬盘被占用",
+      "dir": "/sre",
+      "file": "sre-硬盘被占用.md"
+    },
+    {
+      "id": "e2b7115c85aa218f6146",
+      "path": "/sre/sre-域名测试",
+      "title": "sre-域名测试",
+      "dir": "/sre",
+      "file": "sre-域名测试.md"
+    },
+    {
+      "id": "b9cb386923344c864a16",
+      "path": "/sre/sre-域名测试-wingame",
+      "title": "sre-域名测试-wingame",
+      "dir": "/sre",
+      "file": "sre-域名测试-wingame.md"
+    },
+    {
+      "id": "fa450b774371ddd0779f",
+      "path": "/sre/SRE-原有mongoDB设置服务",
+      "title": "SRE-原有mongoDB设置服务",
+      "dir": "/sre",
+      "file": "SRE-原有mongoDB设置服务.md"
+    },
+    {
+      "id": "0b4dc473013f8ef151f6",
+      "path": "/sre/sre-cloudflare",
+      "title": "sre-cloudflare",
+      "dir": "/sre",
+      "file": "sre-cloudflare.md"
+    },
+    {
+      "id": "8a2957c9f08720edf6e4",
+      "path": "/sre/sre-feishu-机器人",
+      "title": "sre-feishu-机器人",
+      "dir": "/sre",
+      "file": "sre-feishu-机器人.md"
+    },
+    {
+      "id": "fab87a65c880bb6b6640",
+      "path": "/sre/sre-k8s巡检报告",
+      "title": "sre-k8s巡检报告",
+      "dir": "/sre",
+      "file": "sre-k8s巡检报告.md"
+    },
+    {
+      "id": "875a42e5841b0631f5ab",
+      "path": "/sre/sre-liunx-监控",
+      "title": "sre-liunx-监控",
+      "dir": "/sre",
+      "file": "sre-liunx-监控.md"
+    },
+    {
+      "id": "c42ae50f4551b4c4a0e4",
+      "path": "/sre/sre-lnmp",
+      "title": "sre-lnmp",
+      "dir": "/sre",
+      "file": "sre-lnmp.md"
+    },
+    {
+      "id": "15aebfe67c71f10d2f75",
+      "path": "/sre/sre-mongoDB",
+      "title": "sre-mongoDB",
+      "dir": "/sre",
+      "file": "sre-mongoDB.md"
+    },
+    {
+      "id": "ee1c5d2840a234d3628a",
+      "path": "/sre/sre-mysql",
+      "title": "sre-mysql",
+      "dir": "/sre",
+      "file": "sre-mysql.md"
+    },
+    {
+      "id": "72b768554dd92a5c53f4",
+      "path": "/sre/sre-nginx",
+      "title": "sre-nginx",
+      "dir": "/sre",
+      "file": "sre-nginx.md"
+    },
+    {
+      "id": "636bdbd4e08c1da08b05",
+      "path": "/sre/sre-rdp",
+      "title": "sre-rdp",
+      "dir": "/sre",
+      "file": "sre-rdp.md"
+    },
+    {
+      "id": "6c634120abb3206b89dd",
+      "path": "/sre/sre-redis",
+      "title": "sre-redis",
+      "dir": "/sre",
+      "file": "sre-redis.md"
+    },
+    {
+      "id": "4e4e90221bccef278219",
+      "path": "/sre/sre-rocketmq",
+      "title": "sre-rocketmq",
+      "dir": "/sre",
+      "file": "sre-rocketmq.md"
+    },
+    {
+      "id": "d55ab0598df0616cadd9",
+      "path": "/sre/sre-saas-排查",
+      "title": "sre-saas-排查",
+      "dir": "/sre",
+      "file": "sre-saas-排查.md"
+    },
+    {
+      "id": "04a534554633b0ced6c0",
+      "path": "/sre/sre-saas-docker",
+      "title": "sre-saas-docker",
+      "dir": "/sre",
+      "file": "sre-saas-docker.md"
+    },
+    {
+      "id": "2b1f0b43e1d825a693de",
+      "path": "/sre/sre-seata",
+      "title": "sre-seata",
+      "dir": "/sre",
+      "file": "sre-seata.md"
+    },
+    {
+      "id": "f69ffb9d24e7cac75e48",
+      "path": "/sre/sre-sentinel-dashboard",
+      "title": "sre-sentinel-dashboard",
+      "dir": "/sre",
+      "file": "sre-sentinel-dashboard.md"
+    },
+    {
+      "id": "2fcaaa931c52378bfe29",
+      "path": "/sre/sre-slack",
+      "title": "sre-slack",
+      "dir": "/sre",
+      "file": "sre-slack.md"
+    },
+    {
+      "id": "970975d16a85705f8e7e",
+      "path": "/sre/sre-ssh",
+      "title": "sre-ssh",
+      "dir": "/sre",
+      "file": "sre-ssh.md"
+    },
+    {
+      "id": "166d64feab175a0a8e62",
+      "path": "/sre/sre-tg",
+      "title": "sre-tg",
+      "dir": "/sre",
+      "file": "sre-tg.md"
+    },
+    {
+      "id": "b460602b8a11143e9140",
+      "path": "/sre/sre-web3-docker",
+      "title": "sre-web3-docker",
+      "dir": "/sre",
+      "file": "sre-web3-docker.md"
+    },
+    {
+      "id": "ac712f65562cb48d7e92",
+      "path": "/sre/sre-windows",
+      "title": "sre-windows",
+      "dir": "/sre",
+      "file": "sre-windows.md"
+    },
+    {
+      "id": "7139027a819c71a7d222",
+      "path": "/sre/sre-xxl-job",
+      "title": "sre-xxl-job",
+      "dir": "/sre",
+      "file": "sre-xxl-job.md"
+    },
+    {
+      "id": "009bb08449d67e746332",
+      "path": "/sre/web3/缩减副本",
+      "title": "缩减副本",
+      "dir": "/sre/web3",
+      "file": "缩减副本.md"
+    },
+    {
+      "id": "24bad493f6ef34ee2e00",
+      "path": "/sre/web3/saas mysql",
+      "title": "saas mysql",
+      "dir": "/sre/web3",
+      "file": "saas mysql.md"
+    },
+    {
+      "id": "d028bcb7a6ac3e8f7764",
+      "path": "/sre/web3/web3-mysql环境",
+      "title": "web3-mysql环境",
+      "dir": "/sre/web3",
+      "file": "web3-mysql环境.md"
+    },
+    {
+      "id": "ffda64a55d248fba96d2",
+      "path": "/windows/查看主板支持内存",
+      "title": "查看主板支持内存",
+      "dir": "/windows",
+      "file": "查看主板支持内存.md"
+    },
+    {
+      "id": "144278a655540db54227",
+      "path": "/windows/高效工具",
+      "title": "高效工具",
+      "dir": "/windows",
+      "file": "高效工具.md"
+    },
+    {
+      "id": "f4bae1efb51221ea309e",
+      "path": "/windows/功耗墙解除",
+      "title": "功耗墙解除",
+      "dir": "/windows",
+      "file": "功耗墙解除.md"
+    },
+    {
+      "id": "79a4ffa9a5e0be902254",
+      "path": "/windows/官方windows镜像下载",
+      "title": "官方windows镜像下载",
+      "dir": "/windows",
+      "file": "官方windows镜像下载.md"
+    },
+    {
+      "id": "51337dba5eef7ebd4cc9",
+      "path": "/windows/口袋阅",
+      "title": "口袋阅",
+      "dir": "/windows",
+      "file": "口袋阅.md"
+    },
+    {
+      "id": "4bfe4dd3b07ab222554e",
+      "path": "/windows/软件安装",
+      "title": "软件安装",
+      "dir": "/windows",
+      "file": "软件安装.md"
+    },
+    {
+      "id": "578c599484f757dd12dd",
+      "path": "/windows/微信多开",
+      "title": "微信多开",
+      "dir": "/windows",
+      "file": "微信多开.md"
+    },
+    {
+      "id": "1ba0bb792eb645c9720a",
+      "path": "/windows/主机/华南主板",
+      "title": "华南主板",
+      "dir": "/windows/主机",
+      "file": "华南主板.md"
+    },
+    {
+      "id": "722540eaec24e0d47e53",
+      "path": "/windows/字幕提取",
+      "title": "字幕提取",
+      "dir": "/windows",
+      "file": "字幕提取.md"
+    },
+    {
+      "id": "b356ee339d3f13b700a1",
+      "path": "/windows/Axure Pr9安装",
+      "title": "Axure Pr9安装",
+      "dir": "/windows",
+      "file": "Axure Pr9安装.md"
+    },
+    {
+      "id": "58fd7263e1e67ae7471b",
+      "path": "/windows/bat",
+      "title": "bat",
+      "dir": "/windows",
+      "file": "bat.md"
+    },
+    {
+      "id": "7737abe376b147f527c0",
+      "path": "/windows/clash",
+      "title": "clash",
+      "dir": "/windows",
+      "file": "clash.md"
+    },
+    {
+      "id": "9a4d47602324cafa3de9",
+      "path": "/windows/docker-osx",
+      "title": "docker-osx",
+      "dir": "/windows",
+      "file": "docker-osx.md"
+    },
+    {
+      "id": "4988b80c374c960fa3ee",
+      "path": "/windows/Excel/Excel命令",
+      "title": "Excel命令",
+      "dir": "/windows/Excel",
+      "file": "Excel命令.md"
+    },
+    {
+      "id": "39e67ec7bfafc71a7ba2",
+      "path": "/windows/game/c++2010",
+      "title": "c++2010",
+      "dir": "/windows/game",
+      "file": "c++2010.md"
+    },
+    {
+      "id": "df34918b9d02bd5db5a7",
+      "path": "/windows/git命令",
+      "title": "git命令",
+      "dir": "/windows",
+      "file": "git命令.md"
+    },
+    {
+      "id": "885c0633a49124fba594",
+      "path": "/windows/githup语法",
+      "title": "githup语法",
+      "dir": "/windows",
+      "file": "githup语法.md"
+    },
+    {
+      "id": "c7da5881a9824dc05454",
+      "path": "/windows/gmail-配置",
+      "title": "gmail-配置",
+      "dir": "/windows",
+      "file": "gmail-配置.md"
+    },
+    {
+      "id": "4cbf3f04cf6b3d9a2b17",
+      "path": "/windows/google-translate",
+      "title": "google-translate",
+      "dir": "/windows",
+      "file": "google-translate.md"
+    },
+    {
+      "id": "44889bb395603c8c736a",
+      "path": "/windows/mac/mac-黑苹果",
+      "title": "mac-黑苹果",
+      "dir": "/windows/mac",
+      "file": "mac-黑苹果.md"
+    },
+    {
+      "id": "6b7d6a184f02443ce8ff",
+      "path": "/windows/mac/mac-使用",
+      "title": "mac-使用",
+      "dir": "/windows/mac",
+      "file": "mac-使用.md"
+    },
+    {
+      "id": "5e7fe1445afad7ae7c93",
+      "path": "/windows/mac/mac-显示器",
+      "title": "mac-显示器",
+      "dir": "/windows/mac",
+      "file": "mac-显示器.md"
+    },
+    {
+      "id": "8fcd8a94529167c2905b",
+      "path": "/windows/mac/mac-typora",
+      "title": "mac-typora",
+      "dir": "/windows/mac",
+      "file": "mac-typora.md"
+    },
+    {
+      "id": "ac8019f4ae1cda49f475",
+      "path": "/windows/sublime",
+      "title": "sublime",
+      "dir": "/windows",
+      "file": "sublime.md"
+    },
+    {
+      "id": "d1b372d1887c1003169d",
+      "path": "/windows/tools/FFmpeg",
+      "title": "FFmpeg",
+      "dir": "/windows/tools",
+      "file": "FFmpeg.md"
+    },
+    {
+      "id": "31f969775a269c1fb150",
+      "path": "/windows/typora/typora破解",
+      "title": "typora破解",
+      "dir": "/windows/typora",
+      "file": "typora破解.md"
+    },
+    {
+      "id": "e55e4531fb196acd5549",
+      "path": "/windows/typora/typora使用",
+      "title": "typora使用",
+      "dir": "/windows/typora",
+      "file": "typora使用.md"
+    },
+    {
+      "id": "53ba6261874f3b52ab8e",
+      "path": "/windows/typora/typora思维导图",
+      "title": "typora思维导图",
+      "dir": "/windows/typora",
+      "file": "typora思维导图.md"
+    },
+    {
+      "id": "0e93b2ace764fe13d0a7",
+      "path": "/windows/typora/typora语法",
+      "title": "typora语法",
+      "dir": "/windows/typora",
+      "file": "typora语法.md"
+    },
+    {
+      "id": "f4d0efabbf3b802a5e16",
+      "path": "/windows/windows-窗口",
+      "title": "windows-窗口",
+      "dir": "/windows",
+      "file": "windows-窗口.md"
+    },
+    {
+      "id": "4b578926d8e7d2713586",
+      "path": "/windows/windows-恢复分区修复",
+      "title": "windows-恢复分区修复",
+      "dir": "/windows",
+      "file": "windows-恢复分区修复.md"
+    },
+    {
+      "id": "0b9d29e7fd780dfff45f",
+      "path": "/windows/windows-开机启动",
+      "title": "windows-开机启动",
+      "dir": "/windows",
+      "file": "windows-开机启动.md"
+    },
+    {
+      "id": "300e67cdd5836084bcdc",
+      "path": "/windows/windows-命令",
+      "title": "windows-命令",
+      "dir": "/windows",
+      "file": "windows-命令.md"
+    },
+    {
+      "id": "083ebaf21530039f6014",
+      "path": "/windows/windows-批量安装软件",
+      "title": "windows-批量安装软件",
+      "dir": "/windows",
+      "file": "windows-批量安装软件.md"
+    },
+    {
+      "id": "d93311803c7fb49b92a5",
+      "path": "/windows/windows-注册表reg文件",
+      "title": "windows-注册表reg文件",
+      "dir": "/windows",
+      "file": "windows-注册表reg文件.md"
+    },
+    {
+      "id": "16c68b0a81eb1a8c52d7",
+      "path": "/windows/windows-注册服务",
+      "title": "windows-注册服务",
+      "dir": "/windows",
+      "file": "windows-注册服务.md"
+    },
+    {
+      "id": "4b0d291a60aab726bb69",
+      "path": "/windows/windows-docker",
+      "title": "windows-docker",
+      "dir": "/windows",
+      "file": "windows-docker.md"
+    },
+    {
+      "id": "99f3bc5cb7304f3e006d",
+      "path": "/windows/windows-server配置麦克风",
+      "title": "windows-server配置麦克风",
+      "dir": "/windows",
+      "file": "windows-server配置麦克风.md"
+    },
+    {
+      "id": "bf615923204987a928dd",
+      "path": "/windows/windows-ssh",
+      "title": "windows-ssh",
+      "dir": "/windows",
+      "file": "windows-ssh.md"
+    },
+    {
+      "id": "ddccf64c86c00fedabd1",
+      "path": "/windows/windows激活码",
+      "title": "windows激活码",
+      "dir": "/windows",
+      "file": "windows激活码.md"
+    },
+    {
+      "id": "4687b760b8503e30f2f5",
+      "path": "/windows/windows系统监控",
+      "title": "windows系统监控",
+      "dir": "/windows",
+      "file": "windows系统监控.md"
+    },
+    {
+      "id": "d67d750bec541d3571f3",
+      "path": "/windows/windows优化",
+      "title": "windows优化",
+      "dir": "/windows",
+      "file": "windows优化.md"
+    },
+    {
+      "id": "7755e68cb57ce178528d",
+      "path": "/windows/windwos-tree",
+      "title": "windwos-tree",
+      "dir": "/windows",
+      "file": "windwos-tree.md"
+    },
+    {
+      "id": "ebd3a7bf16f8c1f91aa9",
+      "path": "/windows/WSL使用",
+      "title": "WSL使用",
+      "dir": "/windows",
+      "file": "WSL使用.md"
+    }
+  ]
+}

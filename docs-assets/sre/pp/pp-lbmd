@@ -1,0 +1,138 @@
+# pp-lb
+
+[TOC]
+
+
+
+## 腾讯云「私有 DNS」解析到 Service（仅限特殊需求）
+
+https://cloud.tencent.com/document/product/457/51258
+
+如果你希望使用 **自定义内网域名**（例如 `api.internal.xxx.com`），并且：
+
+- **集群外的内网机器**
+- **其他 VPC 的资源**
+
+也能访问这个 Service，就可以用腾讯云私有 DNS。
+
+### 1️⃣ 前提条件
+
+- 使用 **腾讯云 私有 DNS**
+- Service 类型必须是：
+  - `ClusterIP + NodeLocalDNS` ❌（不行）
+  - `LoadBalancer（内网）` ✅
+  - `NodePort + 内网 CLB` ✅
+
+### 2️⃣ 创建内网 LoadBalancer Service
+
+```
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend
+  namespace: api
+  annotations:
+    service.kubernetes.io/qcloud-loadbalancer-internal-subnetid: subnet-7ao0yrl4
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 80
+      targetPort: 8080
+  selector:
+    app: backend
+```
+
+创建后会分配一个 **内网 CLB IP**。
+
+直接使用这个ip就行
+
+
+
+
+
+## 阿里slb-证书
+
+1. slb使用证书
+2. 在监听里面绑定域名
+3. 在监听设置转发
+4. 监听扩展额外域名
+
+
+
+## 腾讯云
+
+### 操作
+
+1. 添加证书到ssl
+2. 在集群对应的命名空间中新建`secret`、
+3. 集群创建lb
+4. `ssl`证书部署到`tke`对应的`secret`
+
+
+
+
+
+### 新建`secret`
+
+```
+kubectl -n kube-system create secret generic filepax.com \
+  --from-literal=qcloud_cert_id=<腾讯云证书ID>
+```
+
+
+
+### 配置lb
+
+```
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    service.kubernetes.io/qcloud-loadbalancer-type: "internal"  # 指定内网 CLB
+    service.kubernetes.io/qcloud-loadbalancer-internal-subnetid: "subnet-7ao0yrl4"  # 必填子网 ID
+    service.cloud.tencent.com/direct-access: "true"
+    service.cloud.tencent.com/enable-grace-shutdown: "true"
+    service.cloud.tencent.com/specify-protocol: '{"80":{"protocol":["HTTP"],"hosts":{"*.filepax.com":{},"*.pikpax.net":{},
+      "*.filepax.net":{},"*.pikpakse.com": {}}},
+      "443":{"protocol":["HTTPS"],"hosts":{"*.filepax.com":{"tls":
+      "filepax.com"}, "*.filepax.net":{"tls": "filepax.net"}, "*.pikpakse.com":{"tls": "pikpakse.com"}, "*.pikpax.net": {"tls":
+      "pikpax.net"}}}}'
+  name: nginx-ingress-lb-filepax
+  namespace: kube-system
+spec:
+  allocateLoadBalancerNodePorts: true
+  externalTrafficPolicy: Local
+  internalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - name: http
+    port: 80
+    protocol: TCP
+    targetPort: 80
+  - name: https
+    port: 443
+    protocol: TCP
+    targetPort: 80
+  selector:
+    app.kubernetes.io/component: controller
+    app.kubernetes.io/instance: ingress-nginx
+    app.kubernetes.io/name: ingress-nginx
+  sessionAffinity: None
+  type: LoadBalancer
+```
+
+部署lb
+
+![image-20260311160847445](https://lian-typora.oss-cn-hangzhou.aliyuncs.com/typora/2026/03/11/2026-03-11-16-08-48-366.png)
+
+### 添加转发规则
+
+https://cloud.tencent.com/document/product/457/51259
+
+https://cloud.tencent.com/document/product/457/45738
+
+
+
+![image-20260310193212292](https://lian-typora.oss-cn-hangzhou.aliyuncs.com/typora/2026/03/10/2026-03-10-19-32-13-478.png)
