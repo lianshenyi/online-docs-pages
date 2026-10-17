@@ -1,0 +1,117 @@
+
+
+### 路由规则	
+
+> 2025年12月19日
+
+```json
+[
+  {
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "domain": [
+      "domain:kiro.dev",
+      "domain:amazonaws.com",
+      "domain:api.aws",
+      "domain:aws",
+      "domain:aliyun.com",
+      "domain:com.cn"
+    ],
+    "enabled": true
+  },
+  {
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "domain": [
+      "geosite:cn"
+    ],
+    "enabled": true
+  },
+  {
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private",
+      "geoip:cn"
+    ],
+    "enabled": true
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "domain:cockpitlocal.k8s.lianfam.cn"
+    ],
+    "enabled": true
+  },
+  {
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "domain": [
+      "awstrack.me",
+      "tencent.com",
+      "huanghuanhui.com",
+      "ccrc.com",
+      "microsoft.com",
+      "s-microsoft.com",
+      "officeppe.com",
+      "baidu.com",
+      "iui.su",
+      "sukeyun.com",
+      "moonshot.cn",
+      "mi.com",
+      "jianshu.com",
+      "qq.com",
+      "172d.fun",
+      "sogou.com",
+      "aliyuncs.com",
+      "csdn.net",
+      "net.cn",
+      "wolai.com",
+      "sacedu.cn",
+      "ccrc-ai.com",
+      "51cto.com",
+      "sseinfo.com",
+      "bilibili.com",
+      "doubao.com",
+      "163.com",
+      "flomoapp.com",
+      "fssc.ccrc.com",
+      "malu.me",
+      "gdeicrjyxy.o-learn.cn",
+      "speedtest.cn",
+      "dji.com",
+      "dji.cn",
+      "njsyue.com",
+      "com.cn",
+      "126.net",
+      "ydstatic.com",
+      "o-learn.cn",
+      "clubsim.com.hk",
+      "deepseek.com",
+      "shanbay.com",
+      "chinawuliu.com.cn",
+      "jeecg.com",
+      "ludashi.com",
+      "amazon.com",
+      "crm.k8s.lianfam.cn",
+      "*.pad-local.com",
+      "*.api.aws",
+      "*.amazonaws.com",
+      "*.cnki.net",
+      "*.gz.lianfam.cn"
+    ],
+    "enabled": true
+  },
+  {
+    "outboundTag": "direct",
+    "domain": [
+      "ip:192.168.0.0/16",
+      "ip:10.12.0.0/16",
+      "ip:18.167.39.184",
+      "ip:3.83.131.252"
+    ],
+    "enabled": true
+  }
+]
+```
+
